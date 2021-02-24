@@ -1,6 +1,6 @@
 package server;
 
-import com.derbysoft.servreg.rpc.products.Header;
+import com.example.products.Header;
 import com.google.protobuf.InvalidProtocolBufferException;
 import io.grpc.*;
 

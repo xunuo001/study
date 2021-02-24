@@ -2,7 +2,7 @@ syntax = "proto3";
 
 package com.derbysoft.servreg;
 
-option java_package = "com.derbysoft.servreg.rpc.products";
+option java_package = "com.example.products";
 option java_outer_classname = "ConnectivityProductsPB";
 option java_multiple_files = true;
 
@@ -24,8 +24,8 @@ message GetProductsResponse {
 }
 
 message ProductsRQ {
-  string channelCode = 1;
-  string supplierCode = 2;
+  string cCode = 1;
+  string sCode = 2;
   string hotelCode = 3;
   repeated string ratePlans = 4;
   repeated string roomTypes = 5;
