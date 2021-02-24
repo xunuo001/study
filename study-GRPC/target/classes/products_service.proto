@@ -1,0 +1,99 @@
+syntax = "proto3";
+
+package com.derbysoft.servreg;
+
+option java_package = "com.derbysoft.servreg.rpc.products";
+option java_outer_classname = "ConnectivityProductsPB";
+option java_multiple_files = true;
+
+service ConnectivityProducts {
+
+  rpc GetProducts (GetProductsRequest) returns (GetProductsResponse) {};
+
+}
+
+
+message GetProductsRequest {
+  ProductsRQ productsRQ = 1;
+  RequestMessage header = 2;
+}
+
+message GetProductsResponse {
+  ProductsRS productsRS = 1;
+  ResponseMessage response = 2;
+}
+
+message ProductsRQ {
+  string channelCode = 1;
+  string supplierCode = 2;
+  string hotelCode = 3;
+  repeated string ratePlans = 4;
+  repeated string roomTypes = 5;
+  TPAExtensionsDTO tpaExtensions = 1000;
+}
+
+message ProductsRS {
+  repeated ProductDTO products = 1;
+  TPAExtensionsDTO tpaExtensions = 1000;
+}
+
+message ProductDTO {
+  string ratePlanCode = 1;
+  string roomTypeCode = 2;
+  TPAExtensionsDTO tpaExtensions = 1000;
+}
+
+message KeyValue{
+  string key = 1;
+  string value = 2;
+}
+message TPAExtensionsDTO {
+  repeated KeyValue elements = 1;
+}
+message TraceInfo {
+  int64 traceId = 1;
+  int64 spanId = 2;
+  int64 parentSpanId = 3;
+  bool sampled = 4;
+  int32 flags = 5;
+  string peerHost = 6;
+  int32 peerPort = 7;
+  TPAExtensionsDTO tpaExtensions = 1000;
+}
+message ServiceInfo {
+  string name = 1;
+  string host = 2;
+  string version = 3;
+}
+message Header {
+  string uri = 1;
+  string taskId = 2;
+  string source = 3;
+  string destination = 4;
+  repeated KeyValue headers = 5;
+  int32 timeout = 10;
+  ServiceInfo invokerInfo = 11;
+  TraceInfo traceInfo = 20;
+  TPAExtensionsDTO tpaExtensions = 1000;
+}
+message RequestMessage {
+  Header header = 1;
+  bytes body = 10;
+  TPAExtensionsDTO tpaExtensions = 1000;
+}
+message ResponseMessage {
+  string taskId = 1;
+  repeated KeyValue elapsedTimes = 2;
+  ErrorDTO error = 3;
+  ServiceInfo replierInfo = 4;
+  repeated KeyValue headers = 5;
+  bytes body = 10;
+  int64 time = 15;
+  TPAExtensionsDTO tpaExtensions = 1000;
+}
+message ErrorDTO {
+  string code = 1;
+  string message = 2;
+  string source = 3;
+  TPAExtensionsDTO tpaExtensions = 1000;
+}
