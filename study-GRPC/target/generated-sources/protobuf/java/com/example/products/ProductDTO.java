@@ -4,11 +4,11 @@
 package com.example.products;
 
 /**
- * Protobuf type {@code com.derbysoft.servreg.ProductDTO}
+ * Protobuf type {@code com.example.ProductDTO}
  */
 public  final class ProductDTO extends
     com.google.protobuf.GeneratedMessageV3 implements
-    // @@protoc_insertion_point(message_implements:com.derbysoft.servreg.ProductDTO)
+    // @@protoc_insertion_point(message_implements:com.example.ProductDTO)
     ProductDTOOrBuilder {
 private static final long serialVersionUID = 0L;
   // Use ProductDTO.newBuilder() to construct.
@@ -96,13 +96,13 @@ private static final long serialVersionUID = 0L;
   }
   public static final com.google.protobuf.Descriptors.Descriptor
       getDescriptor() {
-    return com.example.products.ConnectivityProductsPB.internal_static_com_derbysoft_servreg_ProductDTO_descriptor;
+    return com.example.products.ConnectivityProductsPB.internal_static_com_example_ProductDTO_descriptor;
   }
 
   @java.lang.Override
   protected com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internalGetFieldAccessorTable() {
-    return com.example.products.ConnectivityProductsPB.internal_static_com_derbysoft_servreg_ProductDTO_fieldAccessorTable
+    return com.example.products.ConnectivityProductsPB.internal_static_com_example_ProductDTO_fieldAccessorTable
         .ensureFieldAccessorsInitialized(
             com.example.products.ProductDTO.class, com.example.products.ProductDTO.Builder.class);
   }
@@ -182,21 +182,21 @@ private static final long serialVersionUID = 0L;
   public static final int TPAEXTENSIONS_FIELD_NUMBER = 1000;
   private com.example.products.TPAExtensionsDTO tpaExtensions_;
   /**
-   * <code>.com.derbysoft.servreg.TPAExtensionsDTO tpaExtensions = 1000;</code>
+   * <code>.com.example.TPAExtensionsDTO tpaExtensions = 1000;</code>
    * @return Whether the tpaExtensions field is set.
    */
   public boolean hasTpaExtensions() {
     return tpaExtensions_ != null;
   }
   /**
-   * <code>.com.derbysoft.servreg.TPAExtensionsDTO tpaExtensions = 1000;</code>
+   * <code>.com.example.TPAExtensionsDTO tpaExtensions = 1000;</code>
    * @return The tpaExtensions.
    */
   public com.example.products.TPAExtensionsDTO getTpaExtensions() {
     return tpaExtensions_ == null ? com.example.products.TPAExtensionsDTO.getDefaultInstance() : tpaExtensions_;
   }
   /**
-   * <code>.com.derbysoft.servreg.TPAExtensionsDTO tpaExtensions = 1000;</code>
+   * <code>.com.example.TPAExtensionsDTO tpaExtensions = 1000;</code>
    */
   public com.example.products.TPAExtensionsDTOOrBuilder getTpaExtensionsOrBuilder() {
     return getTpaExtensions();
@@ -383,21 +383,21 @@ private static final long serialVersionUID = 0L;
     return builder;
   }
   /**
-   * Protobuf type {@code com.derbysoft.servreg.ProductDTO}
+   * Protobuf type {@code com.example.ProductDTO}
    */
   public static final class Builder extends
       com.google.protobuf.GeneratedMessageV3.Builder<Builder> implements
-      // @@protoc_insertion_point(builder_implements:com.derbysoft.servreg.ProductDTO)
+      // @@protoc_insertion_point(builder_implements:com.example.ProductDTO)
       com.example.products.ProductDTOOrBuilder {
     public static final com.google.protobuf.Descriptors.Descriptor
         getDescriptor() {
-      return com.example.products.ConnectivityProductsPB.internal_static_com_derbysoft_servreg_ProductDTO_descriptor;
+      return com.example.products.ConnectivityProductsPB.internal_static_com_example_ProductDTO_descriptor;
     }
 
     @java.lang.Override
     protected com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
         internalGetFieldAccessorTable() {
-      return com.example.products.ConnectivityProductsPB.internal_static_com_derbysoft_servreg_ProductDTO_fieldAccessorTable
+      return com.example.products.ConnectivityProductsPB.internal_static_com_example_ProductDTO_fieldAccessorTable
           .ensureFieldAccessorsInitialized(
               com.example.products.ProductDTO.class, com.example.products.ProductDTO.Builder.class);
     }
@@ -436,7 +436,7 @@ private static final long serialVersionUID = 0L;
     @java.lang.Override
     public com.google.protobuf.Descriptors.Descriptor
         getDescriptorForType() {
-      return com.example.products.ConnectivityProductsPB.internal_static_com_derbysoft_servreg_ProductDTO_descriptor;
+      return com.example.products.ConnectivityProductsPB.internal_static_com_example_ProductDTO_descriptor;
     }
 
     @java.lang.Override
@@ -707,14 +707,14 @@ private static final long serialVersionUID = 0L;
     private com.google.protobuf.SingleFieldBuilderV3<
         com.example.products.TPAExtensionsDTO, com.example.products.TPAExtensionsDTO.Builder, com.example.products.TPAExtensionsDTOOrBuilder> tpaExtensionsBuilder_;
     /**
-     * <code>.com.derbysoft.servreg.TPAExtensionsDTO tpaExtensions = 1000;</code>
+     * <code>.com.example.TPAExtensionsDTO tpaExtensions = 1000;</code>
      * @return Whether the tpaExtensions field is set.
      */
     public boolean hasTpaExtensions() {
       return tpaExtensionsBuilder_ != null || tpaExtensions_ != null;
     }
     /**
-     * <code>.com.derbysoft.servreg.TPAExtensionsDTO tpaExtensions = 1000;</code>
+     * <code>.com.example.TPAExtensionsDTO tpaExtensions = 1000;</code>
      * @return The tpaExtensions.
      */
     public com.example.products.TPAExtensionsDTO getTpaExtensions() {
@@ -725,7 +725,7 @@ private static final long serialVersionUID = 0L;
       }
     }
     /**
-     * <code>.com.derbysoft.servreg.TPAExtensionsDTO tpaExtensions = 1000;</code>
+     * <code>.com.example.TPAExtensionsDTO tpaExtensions = 1000;</code>
      */
     public Builder setTpaExtensions(com.example.products.TPAExtensionsDTO value) {
       if (tpaExtensionsBuilder_ == null) {
@@ -741,7 +741,7 @@ private static final long serialVersionUID = 0L;
       return this;
     }
     /**
-     * <code>.com.derbysoft.servreg.TPAExtensionsDTO tpaExtensions = 1000;</code>
+     * <code>.com.example.TPAExtensionsDTO tpaExtensions = 1000;</code>
      */
     public Builder setTpaExtensions(
         com.example.products.TPAExtensionsDTO.Builder builderForValue) {
@@ -755,7 +755,7 @@ private static final long serialVersionUID = 0L;
       return this;
     }
     /**
-     * <code>.com.derbysoft.servreg.TPAExtensionsDTO tpaExtensions = 1000;</code>
+     * <code>.com.example.TPAExtensionsDTO tpaExtensions = 1000;</code>
      */
     public Builder mergeTpaExtensions(com.example.products.TPAExtensionsDTO value) {
       if (tpaExtensionsBuilder_ == null) {
@@ -773,7 +773,7 @@ private static final long serialVersionUID = 0L;
       return this;
     }
     /**
-     * <code>.com.derbysoft.servreg.TPAExtensionsDTO tpaExtensions = 1000;</code>
+     * <code>.com.example.TPAExtensionsDTO tpaExtensions = 1000;</code>
      */
     public Builder clearTpaExtensions() {
       if (tpaExtensionsBuilder_ == null) {
@@ -787,7 +787,7 @@ private static final long serialVersionUID = 0L;
       return this;
     }
     /**
-     * <code>.com.derbysoft.servreg.TPAExtensionsDTO tpaExtensions = 1000;</code>
+     * <code>.com.example.TPAExtensionsDTO tpaExtensions = 1000;</code>
      */
     public com.example.products.TPAExtensionsDTO.Builder getTpaExtensionsBuilder() {
       
@@ -795,7 +795,7 @@ private static final long serialVersionUID = 0L;
       return getTpaExtensionsFieldBuilder().getBuilder();
     }
     /**
-     * <code>.com.derbysoft.servreg.TPAExtensionsDTO tpaExtensions = 1000;</code>
+     * <code>.com.example.TPAExtensionsDTO tpaExtensions = 1000;</code>
      */
     public com.example.products.TPAExtensionsDTOOrBuilder getTpaExtensionsOrBuilder() {
       if (tpaExtensionsBuilder_ != null) {
@@ -806,7 +806,7 @@ private static final long serialVersionUID = 0L;
       }
     }
     /**
-     * <code>.com.derbysoft.servreg.TPAExtensionsDTO tpaExtensions = 1000;</code>
+     * <code>.com.example.TPAExtensionsDTO tpaExtensions = 1000;</code>
      */
     private com.google.protobuf.SingleFieldBuilderV3<
         com.example.products.TPAExtensionsDTO, com.example.products.TPAExtensionsDTO.Builder, com.example.products.TPAExtensionsDTOOrBuilder> 
@@ -834,10 +834,10 @@ private static final long serialVersionUID = 0L;
     }
 
 
-    // @@protoc_insertion_point(builder_scope:com.derbysoft.servreg.ProductDTO)
+    // @@protoc_insertion_point(builder_scope:com.example.ProductDTO)
   }
 
-  // @@protoc_insertion_point(class_scope:com.derbysoft.servreg.ProductDTO)
+  // @@protoc_insertion_point(class_scope:com.example.ProductDTO)
   private static final com.example.products.ProductDTO DEFAULT_INSTANCE;
   static {
     DEFAULT_INSTANCE = new com.example.products.ProductDTO();

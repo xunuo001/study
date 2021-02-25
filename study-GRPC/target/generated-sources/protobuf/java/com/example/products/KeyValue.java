@@ -4,11 +4,11 @@
 package com.example.products;
 
 /**
- * Protobuf type {@code com.derbysoft.servreg.KeyValue}
+ * Protobuf type {@code com.example.KeyValue}
  */
 public  final class KeyValue extends
     com.google.protobuf.GeneratedMessageV3 implements
-    // @@protoc_insertion_point(message_implements:com.derbysoft.servreg.KeyValue)
+    // @@protoc_insertion_point(message_implements:com.example.KeyValue)
     KeyValueOrBuilder {
 private static final long serialVersionUID = 0L;
   // Use KeyValue.newBuilder() to construct.
@@ -83,13 +83,13 @@ private static final long serialVersionUID = 0L;
   }
   public static final com.google.protobuf.Descriptors.Descriptor
       getDescriptor() {
-    return com.example.products.ConnectivityProductsPB.internal_static_com_derbysoft_servreg_KeyValue_descriptor;
+    return com.example.products.ConnectivityProductsPB.internal_static_com_example_KeyValue_descriptor;
   }
 
   @java.lang.Override
   protected com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internalGetFieldAccessorTable() {
-    return com.example.products.ConnectivityProductsPB.internal_static_com_derbysoft_servreg_KeyValue_fieldAccessorTable
+    return com.example.products.ConnectivityProductsPB.internal_static_com_example_KeyValue_fieldAccessorTable
         .ensureFieldAccessorsInitialized(
             com.example.products.KeyValue.class, com.example.products.KeyValue.Builder.class);
   }
@@ -331,21 +331,21 @@ private static final long serialVersionUID = 0L;
     return builder;
   }
   /**
-   * Protobuf type {@code com.derbysoft.servreg.KeyValue}
+   * Protobuf type {@code com.example.KeyValue}
    */
   public static final class Builder extends
       com.google.protobuf.GeneratedMessageV3.Builder<Builder> implements
-      // @@protoc_insertion_point(builder_implements:com.derbysoft.servreg.KeyValue)
+      // @@protoc_insertion_point(builder_implements:com.example.KeyValue)
       com.example.products.KeyValueOrBuilder {
     public static final com.google.protobuf.Descriptors.Descriptor
         getDescriptor() {
-      return com.example.products.ConnectivityProductsPB.internal_static_com_derbysoft_servreg_KeyValue_descriptor;
+      return com.example.products.ConnectivityProductsPB.internal_static_com_example_KeyValue_descriptor;
     }
 
     @java.lang.Override
     protected com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
         internalGetFieldAccessorTable() {
-      return com.example.products.ConnectivityProductsPB.internal_static_com_derbysoft_servreg_KeyValue_fieldAccessorTable
+      return com.example.products.ConnectivityProductsPB.internal_static_com_example_KeyValue_fieldAccessorTable
           .ensureFieldAccessorsInitialized(
               com.example.products.KeyValue.class, com.example.products.KeyValue.Builder.class);
     }
@@ -378,7 +378,7 @@ private static final long serialVersionUID = 0L;
     @java.lang.Override
     public com.google.protobuf.Descriptors.Descriptor
         getDescriptorForType() {
-      return com.example.products.ConnectivityProductsPB.internal_static_com_derbysoft_servreg_KeyValue_descriptor;
+      return com.example.products.ConnectivityProductsPB.internal_static_com_example_KeyValue_descriptor;
     }
 
     @java.lang.Override
@@ -649,10 +649,10 @@ private static final long serialVersionUID = 0L;
     }
 
 
-    // @@protoc_insertion_point(builder_scope:com.derbysoft.servreg.KeyValue)
+    // @@protoc_insertion_point(builder_scope:com.example.KeyValue)
   }
 
-  // @@protoc_insertion_point(class_scope:com.derbysoft.servreg.KeyValue)
+  // @@protoc_insertion_point(class_scope:com.example.KeyValue)
   private static final com.example.products.KeyValue DEFAULT_INSTANCE;
   static {
     DEFAULT_INSTANCE = new com.example.products.KeyValue();

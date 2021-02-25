@@ -24,7 +24,7 @@ public final class ConnectivityProductsGrpc {
 
   private ConnectivityProductsGrpc() {}
 
-  public static final String SERVICE_NAME = "com.derbysoft.servreg.ConnectivityProducts";
+  public static final String SERVICE_NAME = "com.example.ConnectivityProducts";
 
   // Static method descriptors that strictly reflect the proto.
   private static volatile io.grpc.MethodDescriptor<com.example.products.GetProductsRequest,

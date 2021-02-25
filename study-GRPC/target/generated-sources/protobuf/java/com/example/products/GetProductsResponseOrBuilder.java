@@ -4,36 +4,36 @@
 package com.example.products;
 
 public interface GetProductsResponseOrBuilder extends
-    // @@protoc_insertion_point(interface_extends:com.derbysoft.servreg.GetProductsResponse)
+    // @@protoc_insertion_point(interface_extends:com.example.GetProductsResponse)
     com.google.protobuf.MessageOrBuilder {
 
   /**
-   * <code>.com.derbysoft.servreg.ProductsRS productsRS = 1;</code>
+   * <code>.com.example.ProductsRS productsRS = 1;</code>
    * @return Whether the productsRS field is set.
    */
   boolean hasProductsRS();
   /**
-   * <code>.com.derbysoft.servreg.ProductsRS productsRS = 1;</code>
+   * <code>.com.example.ProductsRS productsRS = 1;</code>
    * @return The productsRS.
    */
   com.example.products.ProductsRS getProductsRS();
   /**
-   * <code>.com.derbysoft.servreg.ProductsRS productsRS = 1;</code>
+   * <code>.com.example.ProductsRS productsRS = 1;</code>
    */
   com.example.products.ProductsRSOrBuilder getProductsRSOrBuilder();
 
   /**
-   * <code>.com.derbysoft.servreg.ResponseMessage response = 2;</code>
+   * <code>.com.example.ResponseMessage response = 2;</code>
    * @return Whether the response field is set.
    */
   boolean hasResponse();
   /**
-   * <code>.com.derbysoft.servreg.ResponseMessage response = 2;</code>
+   * <code>.com.example.ResponseMessage response = 2;</code>
    * @return The response.
    */
   com.example.products.ResponseMessage getResponse();
   /**
-   * <code>.com.derbysoft.servreg.ResponseMessage response = 2;</code>
+   * <code>.com.example.ResponseMessage response = 2;</code>
    */
   com.example.products.ResponseMessageOrBuilder getResponseOrBuilder();
 }

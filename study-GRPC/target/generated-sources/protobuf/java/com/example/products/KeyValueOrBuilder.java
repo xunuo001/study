@@ -4,7 +4,7 @@
 package com.example.products;
 
 public interface KeyValueOrBuilder extends
-    // @@protoc_insertion_point(interface_extends:com.derbysoft.servreg.KeyValue)
+    // @@protoc_insertion_point(interface_extends:com.example.KeyValue)
     com.google.protobuf.MessageOrBuilder {
 
   /**

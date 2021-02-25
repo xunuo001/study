@@ -4,45 +4,45 @@
 package com.example.products;
 
 public interface ProductsRSOrBuilder extends
-    // @@protoc_insertion_point(interface_extends:com.derbysoft.servreg.ProductsRS)
+    // @@protoc_insertion_point(interface_extends:com.example.ProductsRS)
     com.google.protobuf.MessageOrBuilder {
 
   /**
-   * <code>repeated .com.derbysoft.servreg.ProductDTO products = 1;</code>
+   * <code>repeated .com.example.ProductDTO products = 1;</code>
    */
   java.util.List<com.example.products.ProductDTO> 
       getProductsList();
   /**
-   * <code>repeated .com.derbysoft.servreg.ProductDTO products = 1;</code>
+   * <code>repeated .com.example.ProductDTO products = 1;</code>
    */
   com.example.products.ProductDTO getProducts(int index);
   /**
-   * <code>repeated .com.derbysoft.servreg.ProductDTO products = 1;</code>
+   * <code>repeated .com.example.ProductDTO products = 1;</code>
    */
   int getProductsCount();
   /**
-   * <code>repeated .com.derbysoft.servreg.ProductDTO products = 1;</code>
+   * <code>repeated .com.example.ProductDTO products = 1;</code>
    */
   java.util.List<? extends com.example.products.ProductDTOOrBuilder> 
       getProductsOrBuilderList();
   /**
-   * <code>repeated .com.derbysoft.servreg.ProductDTO products = 1;</code>
+   * <code>repeated .com.example.ProductDTO products = 1;</code>
    */
   com.example.products.ProductDTOOrBuilder getProductsOrBuilder(
       int index);
 
   /**
-   * <code>.com.derbysoft.servreg.TPAExtensionsDTO tpaExtensions = 1000;</code>
+   * <code>.com.example.TPAExtensionsDTO tpaExtensions = 1000;</code>
    * @return Whether the tpaExtensions field is set.
    */
   boolean hasTpaExtensions();
   /**
-   * <code>.com.derbysoft.servreg.TPAExtensionsDTO tpaExtensions = 1000;</code>
+   * <code>.com.example.TPAExtensionsDTO tpaExtensions = 1000;</code>
    * @return The tpaExtensions.
    */
   com.example.products.TPAExtensionsDTO getTpaExtensions();
   /**
-   * <code>.com.derbysoft.servreg.TPAExtensionsDTO tpaExtensions = 1000;</code>
+   * <code>.com.example.TPAExtensionsDTO tpaExtensions = 1000;</code>
    */
   com.example.products.TPAExtensionsDTOOrBuilder getTpaExtensionsOrBuilder();
 }

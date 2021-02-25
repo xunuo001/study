@@ -4,11 +4,11 @@
 package com.example.products;
 
 /**
- * Protobuf type {@code com.derbysoft.servreg.GetProductsRequest}
+ * Protobuf type {@code com.example.GetProductsRequest}
  */
 public  final class GetProductsRequest extends
     com.google.protobuf.GeneratedMessageV3 implements
-    // @@protoc_insertion_point(message_implements:com.derbysoft.servreg.GetProductsRequest)
+    // @@protoc_insertion_point(message_implements:com.example.GetProductsRequest)
     GetProductsRequestOrBuilder {
 private static final long serialVersionUID = 0L;
   // Use GetProductsRequest.newBuilder() to construct.
@@ -95,13 +95,13 @@ private static final long serialVersionUID = 0L;
   }
   public static final com.google.protobuf.Descriptors.Descriptor
       getDescriptor() {
-    return com.example.products.ConnectivityProductsPB.internal_static_com_derbysoft_servreg_GetProductsRequest_descriptor;
+    return com.example.products.ConnectivityProductsPB.internal_static_com_example_GetProductsRequest_descriptor;
   }
 
   @java.lang.Override
   protected com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internalGetFieldAccessorTable() {
-    return com.example.products.ConnectivityProductsPB.internal_static_com_derbysoft_servreg_GetProductsRequest_fieldAccessorTable
+    return com.example.products.ConnectivityProductsPB.internal_static_com_example_GetProductsRequest_fieldAccessorTable
         .ensureFieldAccessorsInitialized(
             com.example.products.GetProductsRequest.class, com.example.products.GetProductsRequest.Builder.class);
   }
@@ -109,21 +109,21 @@ private static final long serialVersionUID = 0L;
   public static final int PRODUCTSRQ_FIELD_NUMBER = 1;
   private com.example.products.ProductsRQ productsRQ_;
   /**
-   * <code>.com.derbysoft.servreg.ProductsRQ productsRQ = 1;</code>
+   * <code>.com.example.ProductsRQ productsRQ = 1;</code>
    * @return Whether the productsRQ field is set.
    */
   public boolean hasProductsRQ() {
     return productsRQ_ != null;
   }
   /**
-   * <code>.com.derbysoft.servreg.ProductsRQ productsRQ = 1;</code>
+   * <code>.com.example.ProductsRQ productsRQ = 1;</code>
    * @return The productsRQ.
    */
   public com.example.products.ProductsRQ getProductsRQ() {
     return productsRQ_ == null ? com.example.products.ProductsRQ.getDefaultInstance() : productsRQ_;
   }
   /**
-   * <code>.com.derbysoft.servreg.ProductsRQ productsRQ = 1;</code>
+   * <code>.com.example.ProductsRQ productsRQ = 1;</code>
    */
   public com.example.products.ProductsRQOrBuilder getProductsRQOrBuilder() {
     return getProductsRQ();
@@ -132,21 +132,21 @@ private static final long serialVersionUID = 0L;
   public static final int HEADER_FIELD_NUMBER = 2;
   private com.example.products.RequestMessage header_;
   /**
-   * <code>.com.derbysoft.servreg.RequestMessage header = 2;</code>
+   * <code>.com.example.RequestMessage header = 2;</code>
    * @return Whether the header field is set.
    */
   public boolean hasHeader() {
     return header_ != null;
   }
   /**
-   * <code>.com.derbysoft.servreg.RequestMessage header = 2;</code>
+   * <code>.com.example.RequestMessage header = 2;</code>
    * @return The header.
    */
   public com.example.products.RequestMessage getHeader() {
     return header_ == null ? com.example.products.RequestMessage.getDefaultInstance() : header_;
   }
   /**
-   * <code>.com.derbysoft.servreg.RequestMessage header = 2;</code>
+   * <code>.com.example.RequestMessage header = 2;</code>
    */
   public com.example.products.RequestMessageOrBuilder getHeaderOrBuilder() {
     return getHeader();
@@ -329,21 +329,21 @@ private static final long serialVersionUID = 0L;
     return builder;
   }
   /**
-   * Protobuf type {@code com.derbysoft.servreg.GetProductsRequest}
+   * Protobuf type {@code com.example.GetProductsRequest}
    */
   public static final class Builder extends
       com.google.protobuf.GeneratedMessageV3.Builder<Builder> implements
-      // @@protoc_insertion_point(builder_implements:com.derbysoft.servreg.GetProductsRequest)
+      // @@protoc_insertion_point(builder_implements:com.example.GetProductsRequest)
       com.example.products.GetProductsRequestOrBuilder {
     public static final com.google.protobuf.Descriptors.Descriptor
         getDescriptor() {
-      return com.example.products.ConnectivityProductsPB.internal_static_com_derbysoft_servreg_GetProductsRequest_descriptor;
+      return com.example.products.ConnectivityProductsPB.internal_static_com_example_GetProductsRequest_descriptor;
     }
 
     @java.lang.Override
     protected com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
         internalGetFieldAccessorTable() {
-      return com.example.products.ConnectivityProductsPB.internal_static_com_derbysoft_servreg_GetProductsRequest_fieldAccessorTable
+      return com.example.products.ConnectivityProductsPB.internal_static_com_example_GetProductsRequest_fieldAccessorTable
           .ensureFieldAccessorsInitialized(
               com.example.products.GetProductsRequest.class, com.example.products.GetProductsRequest.Builder.class);
     }
@@ -384,7 +384,7 @@ private static final long serialVersionUID = 0L;
     @java.lang.Override
     public com.google.protobuf.Descriptors.Descriptor
         getDescriptorForType() {
-      return com.example.products.ConnectivityProductsPB.internal_static_com_derbysoft_servreg_GetProductsRequest_descriptor;
+      return com.example.products.ConnectivityProductsPB.internal_static_com_example_GetProductsRequest_descriptor;
     }
 
     @java.lang.Override
@@ -501,14 +501,14 @@ private static final long serialVersionUID = 0L;
     private com.google.protobuf.SingleFieldBuilderV3<
         com.example.products.ProductsRQ, com.example.products.ProductsRQ.Builder, com.example.products.ProductsRQOrBuilder> productsRQBuilder_;
     /**
-     * <code>.com.derbysoft.servreg.ProductsRQ productsRQ = 1;</code>
+     * <code>.com.example.ProductsRQ productsRQ = 1;</code>
      * @return Whether the productsRQ field is set.
      */
     public boolean hasProductsRQ() {
       return productsRQBuilder_ != null || productsRQ_ != null;
     }
     /**
-     * <code>.com.derbysoft.servreg.ProductsRQ productsRQ = 1;</code>
+     * <code>.com.example.ProductsRQ productsRQ = 1;</code>
      * @return The productsRQ.
      */
     public com.example.products.ProductsRQ getProductsRQ() {
@@ -519,7 +519,7 @@ private static final long serialVersionUID = 0L;
       }
     }
     /**
-     * <code>.com.derbysoft.servreg.ProductsRQ productsRQ = 1;</code>
+     * <code>.com.example.ProductsRQ productsRQ = 1;</code>
      */
     public Builder setProductsRQ(com.example.products.ProductsRQ value) {
       if (productsRQBuilder_ == null) {
@@ -535,7 +535,7 @@ private static final long serialVersionUID = 0L;
       return this;
     }
     /**
-     * <code>.com.derbysoft.servreg.ProductsRQ productsRQ = 1;</code>
+     * <code>.com.example.ProductsRQ productsRQ = 1;</code>
      */
     public Builder setProductsRQ(
         com.example.products.ProductsRQ.Builder builderForValue) {
@@ -549,7 +549,7 @@ private static final long serialVersionUID = 0L;
       return this;
     }
     /**
-     * <code>.com.derbysoft.servreg.ProductsRQ productsRQ = 1;</code>
+     * <code>.com.example.ProductsRQ productsRQ = 1;</code>
      */
     public Builder mergeProductsRQ(com.example.products.ProductsRQ value) {
       if (productsRQBuilder_ == null) {
@@ -567,7 +567,7 @@ private static final long serialVersionUID = 0L;
       return this;
     }
     /**
-     * <code>.com.derbysoft.servreg.ProductsRQ productsRQ = 1;</code>
+     * <code>.com.example.ProductsRQ productsRQ = 1;</code>
      */
     public Builder clearProductsRQ() {
       if (productsRQBuilder_ == null) {
@@ -581,7 +581,7 @@ private static final long serialVersionUID = 0L;
       return this;
     }
     /**
-     * <code>.com.derbysoft.servreg.ProductsRQ productsRQ = 1;</code>
+     * <code>.com.example.ProductsRQ productsRQ = 1;</code>
      */
     public com.example.products.ProductsRQ.Builder getProductsRQBuilder() {
       
@@ -589,7 +589,7 @@ private static final long serialVersionUID = 0L;
       return getProductsRQFieldBuilder().getBuilder();
     }
     /**
-     * <code>.com.derbysoft.servreg.ProductsRQ productsRQ = 1;</code>
+     * <code>.com.example.ProductsRQ productsRQ = 1;</code>
      */
     public com.example.products.ProductsRQOrBuilder getProductsRQOrBuilder() {
       if (productsRQBuilder_ != null) {
@@ -600,7 +600,7 @@ private static final long serialVersionUID = 0L;
       }
     }
     /**
-     * <code>.com.derbysoft.servreg.ProductsRQ productsRQ = 1;</code>
+     * <code>.com.example.ProductsRQ productsRQ = 1;</code>
      */
     private com.google.protobuf.SingleFieldBuilderV3<
         com.example.products.ProductsRQ, com.example.products.ProductsRQ.Builder, com.example.products.ProductsRQOrBuilder> 
@@ -620,14 +620,14 @@ private static final long serialVersionUID = 0L;
     private com.google.protobuf.SingleFieldBuilderV3<
         com.example.products.RequestMessage, com.example.products.RequestMessage.Builder, com.example.products.RequestMessageOrBuilder> headerBuilder_;
     /**
-     * <code>.com.derbysoft.servreg.RequestMessage header = 2;</code>
+     * <code>.com.example.RequestMessage header = 2;</code>
      * @return Whether the header field is set.
      */
     public boolean hasHeader() {
       return headerBuilder_ != null || header_ != null;
     }
     /**
-     * <code>.com.derbysoft.servreg.RequestMessage header = 2;</code>
+     * <code>.com.example.RequestMessage header = 2;</code>
      * @return The header.
      */
     public com.example.products.RequestMessage getHeader() {
@@ -638,7 +638,7 @@ private static final long serialVersionUID = 0L;
       }
     }
     /**
-     * <code>.com.derbysoft.servreg.RequestMessage header = 2;</code>
+     * <code>.com.example.RequestMessage header = 2;</code>
      */
     public Builder setHeader(com.example.products.RequestMessage value) {
       if (headerBuilder_ == null) {
@@ -654,7 +654,7 @@ private static final long serialVersionUID = 0L;
       return this;
     }
     /**
-     * <code>.com.derbysoft.servreg.RequestMessage header = 2;</code>
+     * <code>.com.example.RequestMessage header = 2;</code>
      */
     public Builder setHeader(
         com.example.products.RequestMessage.Builder builderForValue) {
@@ -668,7 +668,7 @@ private static final long serialVersionUID = 0L;
       return this;
     }
     /**
-     * <code>.com.derbysoft.servreg.RequestMessage header = 2;</code>
+     * <code>.com.example.RequestMessage header = 2;</code>
      */
     public Builder mergeHeader(com.example.products.RequestMessage value) {
       if (headerBuilder_ == null) {
@@ -686,7 +686,7 @@ private static final long serialVersionUID = 0L;
       return this;
     }
     /**
-     * <code>.com.derbysoft.servreg.RequestMessage header = 2;</code>
+     * <code>.com.example.RequestMessage header = 2;</code>
      */
     public Builder clearHeader() {
       if (headerBuilder_ == null) {
@@ -700,7 +700,7 @@ private static final long serialVersionUID = 0L;
       return this;
     }
     /**
-     * <code>.com.derbysoft.servreg.RequestMessage header = 2;</code>
+     * <code>.com.example.RequestMessage header = 2;</code>
      */
     public com.example.products.RequestMessage.Builder getHeaderBuilder() {
       
@@ -708,7 +708,7 @@ private static final long serialVersionUID = 0L;
       return getHeaderFieldBuilder().getBuilder();
     }
     /**
-     * <code>.com.derbysoft.servreg.RequestMessage header = 2;</code>
+     * <code>.com.example.RequestMessage header = 2;</code>
      */
     public com.example.products.RequestMessageOrBuilder getHeaderOrBuilder() {
       if (headerBuilder_ != null) {
@@ -719,7 +719,7 @@ private static final long serialVersionUID = 0L;
       }
     }
     /**
-     * <code>.com.derbysoft.servreg.RequestMessage header = 2;</code>
+     * <code>.com.example.RequestMessage header = 2;</code>
      */
     private com.google.protobuf.SingleFieldBuilderV3<
         com.example.products.RequestMessage, com.example.products.RequestMessage.Builder, com.example.products.RequestMessageOrBuilder> 
@@ -747,10 +747,10 @@ private static final long serialVersionUID = 0L;
     }
 
 
-    // @@protoc_insertion_point(builder_scope:com.derbysoft.servreg.GetProductsRequest)
+    // @@protoc_insertion_point(builder_scope:com.example.GetProductsRequest)
   }
 
-  // @@protoc_insertion_point(class_scope:com.derbysoft.servreg.GetProductsRequest)
+  // @@protoc_insertion_point(class_scope:com.example.GetProductsRequest)
   private static final com.example.products.GetProductsRequest DEFAULT_INSTANCE;
   static {
     DEFAULT_INSTANCE = new com.example.products.GetProductsRequest();

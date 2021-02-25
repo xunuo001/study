@@ -4,29 +4,29 @@
 package com.example.products;
 
 public interface TPAExtensionsDTOOrBuilder extends
-    // @@protoc_insertion_point(interface_extends:com.derbysoft.servreg.TPAExtensionsDTO)
+    // @@protoc_insertion_point(interface_extends:com.example.TPAExtensionsDTO)
     com.google.protobuf.MessageOrBuilder {
 
   /**
-   * <code>repeated .com.derbysoft.servreg.KeyValue elements = 1;</code>
+   * <code>repeated .com.example.KeyValue elements = 1;</code>
    */
   java.util.List<com.example.products.KeyValue> 
       getElementsList();
   /**
-   * <code>repeated .com.derbysoft.servreg.KeyValue elements = 1;</code>
+   * <code>repeated .com.example.KeyValue elements = 1;</code>
    */
   com.example.products.KeyValue getElements(int index);
   /**
-   * <code>repeated .com.derbysoft.servreg.KeyValue elements = 1;</code>
+   * <code>repeated .com.example.KeyValue elements = 1;</code>
    */
   int getElementsCount();
   /**
-   * <code>repeated .com.derbysoft.servreg.KeyValue elements = 1;</code>
+   * <code>repeated .com.example.KeyValue elements = 1;</code>
    */
   java.util.List<? extends com.example.products.KeyValueOrBuilder> 
       getElementsOrBuilderList();
   /**
-   * <code>repeated .com.derbysoft.servreg.KeyValue elements = 1;</code>
+   * <code>repeated .com.example.KeyValue elements = 1;</code>
    */
   com.example.products.KeyValueOrBuilder getElementsOrBuilder(
       int index);

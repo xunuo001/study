@@ -1,6 +1,6 @@
 syntax = "proto3";
 
-package com.derbysoft.servreg;
+package com.example;
 
 option java_package = "com.example.products";
 option java_outer_classname = "ConnectivityProductsPB";

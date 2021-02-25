@@ -4,11 +4,11 @@
 package com.example.products;
 
 /**
- * Protobuf type {@code com.derbysoft.servreg.ProductsRS}
+ * Protobuf type {@code com.example.ProductsRS}
  */
 public  final class ProductsRS extends
     com.google.protobuf.GeneratedMessageV3 implements
-    // @@protoc_insertion_point(message_implements:com.derbysoft.servreg.ProductsRS)
+    // @@protoc_insertion_point(message_implements:com.example.ProductsRS)
     ProductsRSOrBuilder {
 private static final long serialVersionUID = 0L;
   // Use ProductsRS.newBuilder() to construct.
@@ -96,13 +96,13 @@ private static final long serialVersionUID = 0L;
   }
   public static final com.google.protobuf.Descriptors.Descriptor
       getDescriptor() {
-    return com.example.products.ConnectivityProductsPB.internal_static_com_derbysoft_servreg_ProductsRS_descriptor;
+    return com.example.products.ConnectivityProductsPB.internal_static_com_example_ProductsRS_descriptor;
   }
 
   @java.lang.Override
   protected com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internalGetFieldAccessorTable() {
-    return com.example.products.ConnectivityProductsPB.internal_static_com_derbysoft_servreg_ProductsRS_fieldAccessorTable
+    return com.example.products.ConnectivityProductsPB.internal_static_com_example_ProductsRS_fieldAccessorTable
         .ensureFieldAccessorsInitialized(
             com.example.products.ProductsRS.class, com.example.products.ProductsRS.Builder.class);
   }
@@ -110,32 +110,32 @@ private static final long serialVersionUID = 0L;
   public static final int PRODUCTS_FIELD_NUMBER = 1;
   private java.util.List<com.example.products.ProductDTO> products_;
   /**
-   * <code>repeated .com.derbysoft.servreg.ProductDTO products = 1;</code>
+   * <code>repeated .com.example.ProductDTO products = 1;</code>
    */
   public java.util.List<com.example.products.ProductDTO> getProductsList() {
     return products_;
   }
   /**
-   * <code>repeated .com.derbysoft.servreg.ProductDTO products = 1;</code>
+   * <code>repeated .com.example.ProductDTO products = 1;</code>
    */
   public java.util.List<? extends com.example.products.ProductDTOOrBuilder> 
       getProductsOrBuilderList() {
     return products_;
   }
   /**
-   * <code>repeated .com.derbysoft.servreg.ProductDTO products = 1;</code>
+   * <code>repeated .com.example.ProductDTO products = 1;</code>
    */
   public int getProductsCount() {
     return products_.size();
   }
   /**
-   * <code>repeated .com.derbysoft.servreg.ProductDTO products = 1;</code>
+   * <code>repeated .com.example.ProductDTO products = 1;</code>
    */
   public com.example.products.ProductDTO getProducts(int index) {
     return products_.get(index);
   }
   /**
-   * <code>repeated .com.derbysoft.servreg.ProductDTO products = 1;</code>
+   * <code>repeated .com.example.ProductDTO products = 1;</code>
    */
   public com.example.products.ProductDTOOrBuilder getProductsOrBuilder(
       int index) {
@@ -145,21 +145,21 @@ private static final long serialVersionUID = 0L;
   public static final int TPAEXTENSIONS_FIELD_NUMBER = 1000;
   private com.example.products.TPAExtensionsDTO tpaExtensions_;
   /**
-   * <code>.com.derbysoft.servreg.TPAExtensionsDTO tpaExtensions = 1000;</code>
+   * <code>.com.example.TPAExtensionsDTO tpaExtensions = 1000;</code>
    * @return Whether the tpaExtensions field is set.
    */
   public boolean hasTpaExtensions() {
     return tpaExtensions_ != null;
   }
   /**
-   * <code>.com.derbysoft.servreg.TPAExtensionsDTO tpaExtensions = 1000;</code>
+   * <code>.com.example.TPAExtensionsDTO tpaExtensions = 1000;</code>
    * @return The tpaExtensions.
    */
   public com.example.products.TPAExtensionsDTO getTpaExtensions() {
     return tpaExtensions_ == null ? com.example.products.TPAExtensionsDTO.getDefaultInstance() : tpaExtensions_;
   }
   /**
-   * <code>.com.derbysoft.servreg.TPAExtensionsDTO tpaExtensions = 1000;</code>
+   * <code>.com.example.TPAExtensionsDTO tpaExtensions = 1000;</code>
    */
   public com.example.products.TPAExtensionsDTOOrBuilder getTpaExtensionsOrBuilder() {
     return getTpaExtensions();
@@ -339,21 +339,21 @@ private static final long serialVersionUID = 0L;
     return builder;
   }
   /**
-   * Protobuf type {@code com.derbysoft.servreg.ProductsRS}
+   * Protobuf type {@code com.example.ProductsRS}
    */
   public static final class Builder extends
       com.google.protobuf.GeneratedMessageV3.Builder<Builder> implements
-      // @@protoc_insertion_point(builder_implements:com.derbysoft.servreg.ProductsRS)
+      // @@protoc_insertion_point(builder_implements:com.example.ProductsRS)
       com.example.products.ProductsRSOrBuilder {
     public static final com.google.protobuf.Descriptors.Descriptor
         getDescriptor() {
-      return com.example.products.ConnectivityProductsPB.internal_static_com_derbysoft_servreg_ProductsRS_descriptor;
+      return com.example.products.ConnectivityProductsPB.internal_static_com_example_ProductsRS_descriptor;
     }
 
     @java.lang.Override
     protected com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
         internalGetFieldAccessorTable() {
-      return com.example.products.ConnectivityProductsPB.internal_static_com_derbysoft_servreg_ProductsRS_fieldAccessorTable
+      return com.example.products.ConnectivityProductsPB.internal_static_com_example_ProductsRS_fieldAccessorTable
           .ensureFieldAccessorsInitialized(
               com.example.products.ProductsRS.class, com.example.products.ProductsRS.Builder.class);
     }
@@ -395,7 +395,7 @@ private static final long serialVersionUID = 0L;
     @java.lang.Override
     public com.google.protobuf.Descriptors.Descriptor
         getDescriptorForType() {
-      return com.example.products.ConnectivityProductsPB.internal_static_com_derbysoft_servreg_ProductsRS_descriptor;
+      return com.example.products.ConnectivityProductsPB.internal_static_com_example_ProductsRS_descriptor;
     }
 
     @java.lang.Override
@@ -550,7 +550,7 @@ private static final long serialVersionUID = 0L;
         com.example.products.ProductDTO, com.example.products.ProductDTO.Builder, com.example.products.ProductDTOOrBuilder> productsBuilder_;
 
     /**
-     * <code>repeated .com.derbysoft.servreg.ProductDTO products = 1;</code>
+     * <code>repeated .com.example.ProductDTO products = 1;</code>
      */
     public java.util.List<com.example.products.ProductDTO> getProductsList() {
       if (productsBuilder_ == null) {
@@ -560,7 +560,7 @@ private static final long serialVersionUID = 0L;
       }
     }
     /**
-     * <code>repeated .com.derbysoft.servreg.ProductDTO products = 1;</code>
+     * <code>repeated .com.example.ProductDTO products = 1;</code>
      */
     public int getProductsCount() {
       if (productsBuilder_ == null) {
@@ -570,7 +570,7 @@ private static final long serialVersionUID = 0L;
       }
     }
     /**
-     * <code>repeated .com.derbysoft.servreg.ProductDTO products = 1;</code>
+     * <code>repeated .com.example.ProductDTO products = 1;</code>
      */
     public com.example.products.ProductDTO getProducts(int index) {
       if (productsBuilder_ == null) {
@@ -580,7 +580,7 @@ private static final long serialVersionUID = 0L;
       }
     }
     /**
-     * <code>repeated .com.derbysoft.servreg.ProductDTO products = 1;</code>
+     * <code>repeated .com.example.ProductDTO products = 1;</code>
      */
     public Builder setProducts(
         int index, com.example.products.ProductDTO value) {
@@ -597,7 +597,7 @@ private static final long serialVersionUID = 0L;
       return this;
     }
     /**
-     * <code>repeated .com.derbysoft.servreg.ProductDTO products = 1;</code>
+     * <code>repeated .com.example.ProductDTO products = 1;</code>
      */
     public Builder setProducts(
         int index, com.example.products.ProductDTO.Builder builderForValue) {
@@ -611,7 +611,7 @@ private static final long serialVersionUID = 0L;
       return this;
     }
     /**
-     * <code>repeated .com.derbysoft.servreg.ProductDTO products = 1;</code>
+     * <code>repeated .com.example.ProductDTO products = 1;</code>
      */
     public Builder addProducts(com.example.products.ProductDTO value) {
       if (productsBuilder_ == null) {
@@ -627,7 +627,7 @@ private static final long serialVersionUID = 0L;
       return this;
     }
     /**
-     * <code>repeated .com.derbysoft.servreg.ProductDTO products = 1;</code>
+     * <code>repeated .com.example.ProductDTO products = 1;</code>
      */
     public Builder addProducts(
         int index, com.example.products.ProductDTO value) {
@@ -644,7 +644,7 @@ private static final long serialVersionUID = 0L;
       return this;
     }
     /**
-     * <code>repeated .com.derbysoft.servreg.ProductDTO products = 1;</code>
+     * <code>repeated .com.example.ProductDTO products = 1;</code>
      */
     public Builder addProducts(
         com.example.products.ProductDTO.Builder builderForValue) {
@@ -658,7 +658,7 @@ private static final long serialVersionUID = 0L;
       return this;
     }
     /**
-     * <code>repeated .com.derbysoft.servreg.ProductDTO products = 1;</code>
+     * <code>repeated .com.example.ProductDTO products = 1;</code>
      */
     public Builder addProducts(
         int index, com.example.products.ProductDTO.Builder builderForValue) {
@@ -672,7 +672,7 @@ private static final long serialVersionUID = 0L;
       return this;
     }
     /**
-     * <code>repeated .com.derbysoft.servreg.ProductDTO products = 1;</code>
+     * <code>repeated .com.example.ProductDTO products = 1;</code>
      */
     public Builder addAllProducts(
         java.lang.Iterable<? extends com.example.products.ProductDTO> values) {
@@ -687,7 +687,7 @@ private static final long serialVersionUID = 0L;
       return this;
     }
     /**
-     * <code>repeated .com.derbysoft.servreg.ProductDTO products = 1;</code>
+     * <code>repeated .com.example.ProductDTO products = 1;</code>
      */
     public Builder clearProducts() {
       if (productsBuilder_ == null) {
@@ -700,7 +700,7 @@ private static final long serialVersionUID = 0L;
       return this;
     }
     /**
-     * <code>repeated .com.derbysoft.servreg.ProductDTO products = 1;</code>
+     * <code>repeated .com.example.ProductDTO products = 1;</code>
      */
     public Builder removeProducts(int index) {
       if (productsBuilder_ == null) {
@@ -713,14 +713,14 @@ private static final long serialVersionUID = 0L;
       return this;
     }
     /**
-     * <code>repeated .com.derbysoft.servreg.ProductDTO products = 1;</code>
+     * <code>repeated .com.example.ProductDTO products = 1;</code>
      */
     public com.example.products.ProductDTO.Builder getProductsBuilder(
         int index) {
       return getProductsFieldBuilder().getBuilder(index);
     }
     /**
-     * <code>repeated .com.derbysoft.servreg.ProductDTO products = 1;</code>
+     * <code>repeated .com.example.ProductDTO products = 1;</code>
      */
     public com.example.products.ProductDTOOrBuilder getProductsOrBuilder(
         int index) {
@@ -730,7 +730,7 @@ private static final long serialVersionUID = 0L;
       }
     }
     /**
-     * <code>repeated .com.derbysoft.servreg.ProductDTO products = 1;</code>
+     * <code>repeated .com.example.ProductDTO products = 1;</code>
      */
     public java.util.List<? extends com.example.products.ProductDTOOrBuilder> 
          getProductsOrBuilderList() {
@@ -741,14 +741,14 @@ private static final long serialVersionUID = 0L;
       }
     }
     /**
-     * <code>repeated .com.derbysoft.servreg.ProductDTO products = 1;</code>
+     * <code>repeated .com.example.ProductDTO products = 1;</code>
      */
     public com.example.products.ProductDTO.Builder addProductsBuilder() {
       return getProductsFieldBuilder().addBuilder(
           com.example.products.ProductDTO.getDefaultInstance());
     }
     /**
-     * <code>repeated .com.derbysoft.servreg.ProductDTO products = 1;</code>
+     * <code>repeated .com.example.ProductDTO products = 1;</code>
      */
     public com.example.products.ProductDTO.Builder addProductsBuilder(
         int index) {
@@ -756,7 +756,7 @@ private static final long serialVersionUID = 0L;
           index, com.example.products.ProductDTO.getDefaultInstance());
     }
     /**
-     * <code>repeated .com.derbysoft.servreg.ProductDTO products = 1;</code>
+     * <code>repeated .com.example.ProductDTO products = 1;</code>
      */
     public java.util.List<com.example.products.ProductDTO.Builder> 
          getProductsBuilderList() {
@@ -781,14 +781,14 @@ private static final long serialVersionUID = 0L;
     private com.google.protobuf.SingleFieldBuilderV3<
         com.example.products.TPAExtensionsDTO, com.example.products.TPAExtensionsDTO.Builder, com.example.products.TPAExtensionsDTOOrBuilder> tpaExtensionsBuilder_;
     /**
-     * <code>.com.derbysoft.servreg.TPAExtensionsDTO tpaExtensions = 1000;</code>
+     * <code>.com.example.TPAExtensionsDTO tpaExtensions = 1000;</code>
      * @return Whether the tpaExtensions field is set.
      */
     public boolean hasTpaExtensions() {
       return tpaExtensionsBuilder_ != null || tpaExtensions_ != null;
     }
     /**
-     * <code>.com.derbysoft.servreg.TPAExtensionsDTO tpaExtensions = 1000;</code>
+     * <code>.com.example.TPAExtensionsDTO tpaExtensions = 1000;</code>
      * @return The tpaExtensions.
      */
     public com.example.products.TPAExtensionsDTO getTpaExtensions() {
@@ -799,7 +799,7 @@ private static final long serialVersionUID = 0L;
       }
     }
     /**
-     * <code>.com.derbysoft.servreg.TPAExtensionsDTO tpaExtensions = 1000;</code>
+     * <code>.com.example.TPAExtensionsDTO tpaExtensions = 1000;</code>
      */
     public Builder setTpaExtensions(com.example.products.TPAExtensionsDTO value) {
       if (tpaExtensionsBuilder_ == null) {
@@ -815,7 +815,7 @@ private static final long serialVersionUID = 0L;
       return this;
     }
     /**
-     * <code>.com.derbysoft.servreg.TPAExtensionsDTO tpaExtensions = 1000;</code>
+     * <code>.com.example.TPAExtensionsDTO tpaExtensions = 1000;</code>
      */
     public Builder setTpaExtensions(
         com.example.products.TPAExtensionsDTO.Builder builderForValue) {
@@ -829,7 +829,7 @@ private static final long serialVersionUID = 0L;
       return this;
     }
     /**
-     * <code>.com.derbysoft.servreg.TPAExtensionsDTO tpaExtensions = 1000;</code>
+     * <code>.com.example.TPAExtensionsDTO tpaExtensions = 1000;</code>
      */
     public Builder mergeTpaExtensions(com.example.products.TPAExtensionsDTO value) {
       if (tpaExtensionsBuilder_ == null) {
@@ -847,7 +847,7 @@ private static final long serialVersionUID = 0L;
       return this;
     }
     /**
-     * <code>.com.derbysoft.servreg.TPAExtensionsDTO tpaExtensions = 1000;</code>
+     * <code>.com.example.TPAExtensionsDTO tpaExtensions = 1000;</code>
      */
     public Builder clearTpaExtensions() {
       if (tpaExtensionsBuilder_ == null) {
@@ -861,7 +861,7 @@ private static final long serialVersionUID = 0L;
       return this;
     }
     /**
-     * <code>.com.derbysoft.servreg.TPAExtensionsDTO tpaExtensions = 1000;</code>
+     * <code>.com.example.TPAExtensionsDTO tpaExtensions = 1000;</code>
      */
     public com.example.products.TPAExtensionsDTO.Builder getTpaExtensionsBuilder() {
       
@@ -869,7 +869,7 @@ private static final long serialVersionUID = 0L;
       return getTpaExtensionsFieldBuilder().getBuilder();
     }
     /**
-     * <code>.com.derbysoft.servreg.TPAExtensionsDTO tpaExtensions = 1000;</code>
+     * <code>.com.example.TPAExtensionsDTO tpaExtensions = 1000;</code>
      */
     public com.example.products.TPAExtensionsDTOOrBuilder getTpaExtensionsOrBuilder() {
       if (tpaExtensionsBuilder_ != null) {
@@ -880,7 +880,7 @@ private static final long serialVersionUID = 0L;
       }
     }
     /**
-     * <code>.com.derbysoft.servreg.TPAExtensionsDTO tpaExtensions = 1000;</code>
+     * <code>.com.example.TPAExtensionsDTO tpaExtensions = 1000;</code>
      */
     private com.google.protobuf.SingleFieldBuilderV3<
         com.example.products.TPAExtensionsDTO, com.example.products.TPAExtensionsDTO.Builder, com.example.products.TPAExtensionsDTOOrBuilder> 
@@ -908,10 +908,10 @@ private static final long serialVersionUID = 0L;
     }
 
 
-    // @@protoc_insertion_point(builder_scope:com.derbysoft.servreg.ProductsRS)
+    // @@protoc_insertion_point(builder_scope:com.example.ProductsRS)
   }
 
-  // @@protoc_insertion_point(class_scope:com.derbysoft.servreg.ProductsRS)
+  // @@protoc_insertion_point(class_scope:com.example.ProductsRS)
   private static final com.example.products.ProductsRS DEFAULT_INSTANCE;
   static {
     DEFAULT_INSTANCE = new com.example.products.ProductsRS();

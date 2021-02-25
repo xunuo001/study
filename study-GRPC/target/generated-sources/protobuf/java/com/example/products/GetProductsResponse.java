@@ -4,11 +4,11 @@
 package com.example.products;
 
 /**
- * Protobuf type {@code com.derbysoft.servreg.GetProductsResponse}
+ * Protobuf type {@code com.example.GetProductsResponse}
  */
 public  final class GetProductsResponse extends
     com.google.protobuf.GeneratedMessageV3 implements
-    // @@protoc_insertion_point(message_implements:com.derbysoft.servreg.GetProductsResponse)
+    // @@protoc_insertion_point(message_implements:com.example.GetProductsResponse)
     GetProductsResponseOrBuilder {
 private static final long serialVersionUID = 0L;
   // Use GetProductsResponse.newBuilder() to construct.
@@ -95,13 +95,13 @@ private static final long serialVersionUID = 0L;
   }
   public static final com.google.protobuf.Descriptors.Descriptor
       getDescriptor() {
-    return com.example.products.ConnectivityProductsPB.internal_static_com_derbysoft_servreg_GetProductsResponse_descriptor;
+    return com.example.products.ConnectivityProductsPB.internal_static_com_example_GetProductsResponse_descriptor;
   }
 
   @java.lang.Override
   protected com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internalGetFieldAccessorTable() {
-    return com.example.products.ConnectivityProductsPB.internal_static_com_derbysoft_servreg_GetProductsResponse_fieldAccessorTable
+    return com.example.products.ConnectivityProductsPB.internal_static_com_example_GetProductsResponse_fieldAccessorTable
         .ensureFieldAccessorsInitialized(
             com.example.products.GetProductsResponse.class, com.example.products.GetProductsResponse.Builder.class);
   }
@@ -109,21 +109,21 @@ private static final long serialVersionUID = 0L;
   public static final int PRODUCTSRS_FIELD_NUMBER = 1;
   private com.example.products.ProductsRS productsRS_;
   /**
-   * <code>.com.derbysoft.servreg.ProductsRS productsRS = 1;</code>
+   * <code>.com.example.ProductsRS productsRS = 1;</code>
    * @return Whether the productsRS field is set.
    */
   public boolean hasProductsRS() {
     return productsRS_ != null;
   }
   /**
-   * <code>.com.derbysoft.servreg.ProductsRS productsRS = 1;</code>
+   * <code>.com.example.ProductsRS productsRS = 1;</code>
    * @return The productsRS.
    */
   public com.example.products.ProductsRS getProductsRS() {
     return productsRS_ == null ? com.example.products.ProductsRS.getDefaultInstance() : productsRS_;
   }
   /**
-   * <code>.com.derbysoft.servreg.ProductsRS productsRS = 1;</code>
+   * <code>.com.example.ProductsRS productsRS = 1;</code>
    */
   public com.example.products.ProductsRSOrBuilder getProductsRSOrBuilder() {
     return getProductsRS();
@@ -132,21 +132,21 @@ private static final long serialVersionUID = 0L;
   public static final int RESPONSE_FIELD_NUMBER = 2;
   private com.example.products.ResponseMessage response_;
   /**
-   * <code>.com.derbysoft.servreg.ResponseMessage response = 2;</code>
+   * <code>.com.example.ResponseMessage response = 2;</code>
    * @return Whether the response field is set.
    */
   public boolean hasResponse() {
     return response_ != null;
   }
   /**
-   * <code>.com.derbysoft.servreg.ResponseMessage response = 2;</code>
+   * <code>.com.example.ResponseMessage response = 2;</code>
    * @return The response.
    */
   public com.example.products.ResponseMessage getResponse() {
     return response_ == null ? com.example.products.ResponseMessage.getDefaultInstance() : response_;
   }
   /**
-   * <code>.com.derbysoft.servreg.ResponseMessage response = 2;</code>
+   * <code>.com.example.ResponseMessage response = 2;</code>
    */
   public com.example.products.ResponseMessageOrBuilder getResponseOrBuilder() {
     return getResponse();
@@ -329,21 +329,21 @@ private static final long serialVersionUID = 0L;
     return builder;
   }
   /**
-   * Protobuf type {@code com.derbysoft.servreg.GetProductsResponse}
+   * Protobuf type {@code com.example.GetProductsResponse}
    */
   public static final class Builder extends
       com.google.protobuf.GeneratedMessageV3.Builder<Builder> implements
-      // @@protoc_insertion_point(builder_implements:com.derbysoft.servreg.GetProductsResponse)
+      // @@protoc_insertion_point(builder_implements:com.example.GetProductsResponse)
       com.example.products.GetProductsResponseOrBuilder {
     public static final com.google.protobuf.Descriptors.Descriptor
         getDescriptor() {
-      return com.example.products.ConnectivityProductsPB.internal_static_com_derbysoft_servreg_GetProductsResponse_descriptor;
+      return com.example.products.ConnectivityProductsPB.internal_static_com_example_GetProductsResponse_descriptor;
     }
 
     @java.lang.Override
     protected com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
         internalGetFieldAccessorTable() {
-      return com.example.products.ConnectivityProductsPB.internal_static_com_derbysoft_servreg_GetProductsResponse_fieldAccessorTable
+      return com.example.products.ConnectivityProductsPB.internal_static_com_example_GetProductsResponse_fieldAccessorTable
           .ensureFieldAccessorsInitialized(
               com.example.products.GetProductsResponse.class, com.example.products.GetProductsResponse.Builder.class);
     }
@@ -384,7 +384,7 @@ private static final long serialVersionUID = 0L;
     @java.lang.Override
     public com.google.protobuf.Descriptors.Descriptor
         getDescriptorForType() {
-      return com.example.products.ConnectivityProductsPB.internal_static_com_derbysoft_servreg_GetProductsResponse_descriptor;
+      return com.example.products.ConnectivityProductsPB.internal_static_com_example_GetProductsResponse_descriptor;
     }
 
     @java.lang.Override
@@ -501,14 +501,14 @@ private static final long serialVersionUID = 0L;
     private com.google.protobuf.SingleFieldBuilderV3<
         com.example.products.ProductsRS, com.example.products.ProductsRS.Builder, com.example.products.ProductsRSOrBuilder> productsRSBuilder_;
     /**
-     * <code>.com.derbysoft.servreg.ProductsRS productsRS = 1;</code>
+     * <code>.com.example.ProductsRS productsRS = 1;</code>
      * @return Whether the productsRS field is set.
      */
     public boolean hasProductsRS() {
       return productsRSBuilder_ != null || productsRS_ != null;
     }
     /**
-     * <code>.com.derbysoft.servreg.ProductsRS productsRS = 1;</code>
+     * <code>.com.example.ProductsRS productsRS = 1;</code>
      * @return The productsRS.
      */
     public com.example.products.ProductsRS getProductsRS() {
@@ -519,7 +519,7 @@ private static final long serialVersionUID = 0L;
       }
     }
     /**
-     * <code>.com.derbysoft.servreg.ProductsRS productsRS = 1;</code>
+     * <code>.com.example.ProductsRS productsRS = 1;</code>
      */
     public Builder setProductsRS(com.example.products.ProductsRS value) {
       if (productsRSBuilder_ == null) {
@@ -535,7 +535,7 @@ private static final long serialVersionUID = 0L;
       return this;
     }
     /**
-     * <code>.com.derbysoft.servreg.ProductsRS productsRS = 1;</code>
+     * <code>.com.example.ProductsRS productsRS = 1;</code>
      */
     public Builder setProductsRS(
         com.example.products.ProductsRS.Builder builderForValue) {
@@ -549,7 +549,7 @@ private static final long serialVersionUID = 0L;
       return this;
     }
     /**
-     * <code>.com.derbysoft.servreg.ProductsRS productsRS = 1;</code>
+     * <code>.com.example.ProductsRS productsRS = 1;</code>
      */
     public Builder mergeProductsRS(com.example.products.ProductsRS value) {
       if (productsRSBuilder_ == null) {
@@ -567,7 +567,7 @@ private static final long serialVersionUID = 0L;
       return this;
     }
     /**
-     * <code>.com.derbysoft.servreg.ProductsRS productsRS = 1;</code>
+     * <code>.com.example.ProductsRS productsRS = 1;</code>
      */
     public Builder clearProductsRS() {
       if (productsRSBuilder_ == null) {
@@ -581,7 +581,7 @@ private static final long serialVersionUID = 0L;
       return this;
     }
     /**
-     * <code>.com.derbysoft.servreg.ProductsRS productsRS = 1;</code>
+     * <code>.com.example.ProductsRS productsRS = 1;</code>
      */
     public com.example.products.ProductsRS.Builder getProductsRSBuilder() {
       
@@ -589,7 +589,7 @@ private static final long serialVersionUID = 0L;
       return getProductsRSFieldBuilder().getBuilder();
     }
     /**
-     * <code>.com.derbysoft.servreg.ProductsRS productsRS = 1;</code>
+     * <code>.com.example.ProductsRS productsRS = 1;</code>
      */
     public com.example.products.ProductsRSOrBuilder getProductsRSOrBuilder() {
       if (productsRSBuilder_ != null) {
@@ -600,7 +600,7 @@ private static final long serialVersionUID = 0L;
       }
     }
     /**
-     * <code>.com.derbysoft.servreg.ProductsRS productsRS = 1;</code>
+     * <code>.com.example.ProductsRS productsRS = 1;</code>
      */
     private com.google.protobuf.SingleFieldBuilderV3<
         com.example.products.ProductsRS, com.example.products.ProductsRS.Builder, com.example.products.ProductsRSOrBuilder> 
@@ -620,14 +620,14 @@ private static final long serialVersionUID = 0L;
     private com.google.protobuf.SingleFieldBuilderV3<
         com.example.products.ResponseMessage, com.example.products.ResponseMessage.Builder, com.example.products.ResponseMessageOrBuilder> responseBuilder_;
     /**
-     * <code>.com.derbysoft.servreg.ResponseMessage response = 2;</code>
+     * <code>.com.example.ResponseMessage response = 2;</code>
      * @return Whether the response field is set.
      */
     public boolean hasResponse() {
       return responseBuilder_ != null || response_ != null;
     }
     /**
-     * <code>.com.derbysoft.servreg.ResponseMessage response = 2;</code>
+     * <code>.com.example.ResponseMessage response = 2;</code>
      * @return The response.
      */
     public com.example.products.ResponseMessage getResponse() {
@@ -638,7 +638,7 @@ private static final long serialVersionUID = 0L;
       }
     }
     /**
-     * <code>.com.derbysoft.servreg.ResponseMessage response = 2;</code>
+     * <code>.com.example.ResponseMessage response = 2;</code>
      */
     public Builder setResponse(com.example.products.ResponseMessage value) {
       if (responseBuilder_ == null) {
@@ -654,7 +654,7 @@ private static final long serialVersionUID = 0L;
       return this;
     }
     /**
-     * <code>.com.derbysoft.servreg.ResponseMessage response = 2;</code>
+     * <code>.com.example.ResponseMessage response = 2;</code>
      */
     public Builder setResponse(
         com.example.products.ResponseMessage.Builder builderForValue) {
@@ -668,7 +668,7 @@ private static final long serialVersionUID = 0L;
       return this;
     }
     /**
-     * <code>.com.derbysoft.servreg.ResponseMessage response = 2;</code>
+     * <code>.com.example.ResponseMessage response = 2;</code>
      */
     public Builder mergeResponse(com.example.products.ResponseMessage value) {
       if (responseBuilder_ == null) {
@@ -686,7 +686,7 @@ private static final long serialVersionUID = 0L;
       return this;
     }
     /**
-     * <code>.com.derbysoft.servreg.ResponseMessage response = 2;</code>
+     * <code>.com.example.ResponseMessage response = 2;</code>
      */
     public Builder clearResponse() {
       if (responseBuilder_ == null) {
@@ -700,7 +700,7 @@ private static final long serialVersionUID = 0L;
       return this;
     }
     /**
-     * <code>.com.derbysoft.servreg.ResponseMessage response = 2;</code>
+     * <code>.com.example.ResponseMessage response = 2;</code>
      */
     public com.example.products.ResponseMessage.Builder getResponseBuilder() {
       
@@ -708,7 +708,7 @@ private static final long serialVersionUID = 0L;
       return getResponseFieldBuilder().getBuilder();
     }
     /**
-     * <code>.com.derbysoft.servreg.ResponseMessage response = 2;</code>
+     * <code>.com.example.ResponseMessage response = 2;</code>
      */
     public com.example.products.ResponseMessageOrBuilder getResponseOrBuilder() {
       if (responseBuilder_ != null) {
@@ -719,7 +719,7 @@ private static final long serialVersionUID = 0L;
       }
     }
     /**
-     * <code>.com.derbysoft.servreg.ResponseMessage response = 2;</code>
+     * <code>.com.example.ResponseMessage response = 2;</code>
      */
     private com.google.protobuf.SingleFieldBuilderV3<
         com.example.products.ResponseMessage, com.example.products.ResponseMessage.Builder, com.example.products.ResponseMessageOrBuilder> 
@@ -747,10 +747,10 @@ private static final long serialVersionUID = 0L;
     }
 
 
-    // @@protoc_insertion_point(builder_scope:com.derbysoft.servreg.GetProductsResponse)
+    // @@protoc_insertion_point(builder_scope:com.example.GetProductsResponse)
   }
 
-  // @@protoc_insertion_point(class_scope:com.derbysoft.servreg.GetProductsResponse)
+  // @@protoc_insertion_point(class_scope:com.example.GetProductsResponse)
   private static final com.example.products.GetProductsResponse DEFAULT_INSTANCE;
   static {
     DEFAULT_INSTANCE = new com.example.products.GetProductsResponse();

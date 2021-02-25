@@ -4,7 +4,7 @@
 package com.example.products;
 
 public interface HeaderOrBuilder extends
-    // @@protoc_insertion_point(interface_extends:com.derbysoft.servreg.Header)
+    // @@protoc_insertion_point(interface_extends:com.example.Header)
     com.google.protobuf.MessageOrBuilder {
 
   /**
@@ -56,25 +56,25 @@ public interface HeaderOrBuilder extends
       getDestinationBytes();
 
   /**
-   * <code>repeated .com.derbysoft.servreg.KeyValue headers = 5;</code>
+   * <code>repeated .com.example.KeyValue headers = 5;</code>
    */
   java.util.List<com.example.products.KeyValue> 
       getHeadersList();
   /**
-   * <code>repeated .com.derbysoft.servreg.KeyValue headers = 5;</code>
+   * <code>repeated .com.example.KeyValue headers = 5;</code>
    */
   com.example.products.KeyValue getHeaders(int index);
   /**
-   * <code>repeated .com.derbysoft.servreg.KeyValue headers = 5;</code>
+   * <code>repeated .com.example.KeyValue headers = 5;</code>
    */
   int getHeadersCount();
   /**
-   * <code>repeated .com.derbysoft.servreg.KeyValue headers = 5;</code>
+   * <code>repeated .com.example.KeyValue headers = 5;</code>
    */
   java.util.List<? extends com.example.products.KeyValueOrBuilder> 
       getHeadersOrBuilderList();
   /**
-   * <code>repeated .com.derbysoft.servreg.KeyValue headers = 5;</code>
+   * <code>repeated .com.example.KeyValue headers = 5;</code>
    */
   com.example.products.KeyValueOrBuilder getHeadersOrBuilder(
       int index);
@@ -86,47 +86,47 @@ public interface HeaderOrBuilder extends
   int getTimeout();
 
   /**
-   * <code>.com.derbysoft.servreg.ServiceInfo invokerInfo = 11;</code>
+   * <code>.com.example.ServiceInfo invokerInfo = 11;</code>
    * @return Whether the invokerInfo field is set.
    */
   boolean hasInvokerInfo();
   /**
-   * <code>.com.derbysoft.servreg.ServiceInfo invokerInfo = 11;</code>
+   * <code>.com.example.ServiceInfo invokerInfo = 11;</code>
    * @return The invokerInfo.
    */
   com.example.products.ServiceInfo getInvokerInfo();
   /**
-   * <code>.com.derbysoft.servreg.ServiceInfo invokerInfo = 11;</code>
+   * <code>.com.example.ServiceInfo invokerInfo = 11;</code>
    */
   com.example.products.ServiceInfoOrBuilder getInvokerInfoOrBuilder();
 
   /**
-   * <code>.com.derbysoft.servreg.TraceInfo traceInfo = 20;</code>
+   * <code>.com.example.TraceInfo traceInfo = 20;</code>
    * @return Whether the traceInfo field is set.
    */
   boolean hasTraceInfo();
   /**
-   * <code>.com.derbysoft.servreg.TraceInfo traceInfo = 20;</code>
+   * <code>.com.example.TraceInfo traceInfo = 20;</code>
    * @return The traceInfo.
    */
   com.example.products.TraceInfo getTraceInfo();
   /**
-   * <code>.com.derbysoft.servreg.TraceInfo traceInfo = 20;</code>
+   * <code>.com.example.TraceInfo traceInfo = 20;</code>
    */
   com.example.products.TraceInfoOrBuilder getTraceInfoOrBuilder();
 
   /**
-   * <code>.com.derbysoft.servreg.TPAExtensionsDTO tpaExtensions = 1000;</code>
+   * <code>.com.example.TPAExtensionsDTO tpaExtensions = 1000;</code>
    * @return Whether the tpaExtensions field is set.
    */
   boolean hasTpaExtensions();
   /**
-   * <code>.com.derbysoft.servreg.TPAExtensionsDTO tpaExtensions = 1000;</code>
+   * <code>.com.example.TPAExtensionsDTO tpaExtensions = 1000;</code>
    * @return The tpaExtensions.
    */
   com.example.products.TPAExtensionsDTO getTpaExtensions();
   /**
-   * <code>.com.derbysoft.servreg.TPAExtensionsDTO tpaExtensions = 1000;</code>
+   * <code>.com.example.TPAExtensionsDTO tpaExtensions = 1000;</code>
    */
   com.example.products.TPAExtensionsDTOOrBuilder getTpaExtensionsOrBuilder();
 }

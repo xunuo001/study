@@ -4,11 +4,11 @@
 package com.example.products;
 
 /**
- * Protobuf type {@code com.derbysoft.servreg.TPAExtensionsDTO}
+ * Protobuf type {@code com.example.TPAExtensionsDTO}
  */
 public  final class TPAExtensionsDTO extends
     com.google.protobuf.GeneratedMessageV3 implements
-    // @@protoc_insertion_point(message_implements:com.derbysoft.servreg.TPAExtensionsDTO)
+    // @@protoc_insertion_point(message_implements:com.example.TPAExtensionsDTO)
     TPAExtensionsDTOOrBuilder {
 private static final long serialVersionUID = 0L;
   // Use TPAExtensionsDTO.newBuilder() to construct.
@@ -83,13 +83,13 @@ private static final long serialVersionUID = 0L;
   }
   public static final com.google.protobuf.Descriptors.Descriptor
       getDescriptor() {
-    return com.example.products.ConnectivityProductsPB.internal_static_com_derbysoft_servreg_TPAExtensionsDTO_descriptor;
+    return com.example.products.ConnectivityProductsPB.internal_static_com_example_TPAExtensionsDTO_descriptor;
   }
 
   @java.lang.Override
   protected com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internalGetFieldAccessorTable() {
-    return com.example.products.ConnectivityProductsPB.internal_static_com_derbysoft_servreg_TPAExtensionsDTO_fieldAccessorTable
+    return com.example.products.ConnectivityProductsPB.internal_static_com_example_TPAExtensionsDTO_fieldAccessorTable
         .ensureFieldAccessorsInitialized(
             com.example.products.TPAExtensionsDTO.class, com.example.products.TPAExtensionsDTO.Builder.class);
   }
@@ -97,32 +97,32 @@ private static final long serialVersionUID = 0L;
   public static final int ELEMENTS_FIELD_NUMBER = 1;
   private java.util.List<com.example.products.KeyValue> elements_;
   /**
-   * <code>repeated .com.derbysoft.servreg.KeyValue elements = 1;</code>
+   * <code>repeated .com.example.KeyValue elements = 1;</code>
    */
   public java.util.List<com.example.products.KeyValue> getElementsList() {
     return elements_;
   }
   /**
-   * <code>repeated .com.derbysoft.servreg.KeyValue elements = 1;</code>
+   * <code>repeated .com.example.KeyValue elements = 1;</code>
    */
   public java.util.List<? extends com.example.products.KeyValueOrBuilder> 
       getElementsOrBuilderList() {
     return elements_;
   }
   /**
-   * <code>repeated .com.derbysoft.servreg.KeyValue elements = 1;</code>
+   * <code>repeated .com.example.KeyValue elements = 1;</code>
    */
   public int getElementsCount() {
     return elements_.size();
   }
   /**
-   * <code>repeated .com.derbysoft.servreg.KeyValue elements = 1;</code>
+   * <code>repeated .com.example.KeyValue elements = 1;</code>
    */
   public com.example.products.KeyValue getElements(int index) {
     return elements_.get(index);
   }
   /**
-   * <code>repeated .com.derbysoft.servreg.KeyValue elements = 1;</code>
+   * <code>repeated .com.example.KeyValue elements = 1;</code>
    */
   public com.example.products.KeyValueOrBuilder getElementsOrBuilder(
       int index) {
@@ -287,21 +287,21 @@ private static final long serialVersionUID = 0L;
     return builder;
   }
   /**
-   * Protobuf type {@code com.derbysoft.servreg.TPAExtensionsDTO}
+   * Protobuf type {@code com.example.TPAExtensionsDTO}
    */
   public static final class Builder extends
       com.google.protobuf.GeneratedMessageV3.Builder<Builder> implements
-      // @@protoc_insertion_point(builder_implements:com.derbysoft.servreg.TPAExtensionsDTO)
+      // @@protoc_insertion_point(builder_implements:com.example.TPAExtensionsDTO)
       com.example.products.TPAExtensionsDTOOrBuilder {
     public static final com.google.protobuf.Descriptors.Descriptor
         getDescriptor() {
-      return com.example.products.ConnectivityProductsPB.internal_static_com_derbysoft_servreg_TPAExtensionsDTO_descriptor;
+      return com.example.products.ConnectivityProductsPB.internal_static_com_example_TPAExtensionsDTO_descriptor;
     }
 
     @java.lang.Override
     protected com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
         internalGetFieldAccessorTable() {
-      return com.example.products.ConnectivityProductsPB.internal_static_com_derbysoft_servreg_TPAExtensionsDTO_fieldAccessorTable
+      return com.example.products.ConnectivityProductsPB.internal_static_com_example_TPAExtensionsDTO_fieldAccessorTable
           .ensureFieldAccessorsInitialized(
               com.example.products.TPAExtensionsDTO.class, com.example.products.TPAExtensionsDTO.Builder.class);
     }
@@ -337,7 +337,7 @@ private static final long serialVersionUID = 0L;
     @java.lang.Override
     public com.google.protobuf.Descriptors.Descriptor
         getDescriptorForType() {
-      return com.example.products.ConnectivityProductsPB.internal_static_com_derbysoft_servreg_TPAExtensionsDTO_descriptor;
+      return com.example.products.ConnectivityProductsPB.internal_static_com_example_TPAExtensionsDTO_descriptor;
     }
 
     @java.lang.Override
@@ -484,7 +484,7 @@ private static final long serialVersionUID = 0L;
         com.example.products.KeyValue, com.example.products.KeyValue.Builder, com.example.products.KeyValueOrBuilder> elementsBuilder_;
 
     /**
-     * <code>repeated .com.derbysoft.servreg.KeyValue elements = 1;</code>
+     * <code>repeated .com.example.KeyValue elements = 1;</code>
      */
     public java.util.List<com.example.products.KeyValue> getElementsList() {
       if (elementsBuilder_ == null) {
@@ -494,7 +494,7 @@ private static final long serialVersionUID = 0L;
       }
     }
     /**
-     * <code>repeated .com.derbysoft.servreg.KeyValue elements = 1;</code>
+     * <code>repeated .com.example.KeyValue elements = 1;</code>
      */
     public int getElementsCount() {
       if (elementsBuilder_ == null) {
@@ -504,7 +504,7 @@ private static final long serialVersionUID = 0L;
       }
     }
     /**
-     * <code>repeated .com.derbysoft.servreg.KeyValue elements = 1;</code>
+     * <code>repeated .com.example.KeyValue elements = 1;</code>
      */
     public com.example.products.KeyValue getElements(int index) {
       if (elementsBuilder_ == null) {
@@ -514,7 +514,7 @@ private static final long serialVersionUID = 0L;
       }
     }
     /**
-     * <code>repeated .com.derbysoft.servreg.KeyValue elements = 1;</code>
+     * <code>repeated .com.example.KeyValue elements = 1;</code>
      */
     public Builder setElements(
         int index, com.example.products.KeyValue value) {
@@ -531,7 +531,7 @@ private static final long serialVersionUID = 0L;
       return this;
     }
     /**
-     * <code>repeated .com.derbysoft.servreg.KeyValue elements = 1;</code>
+     * <code>repeated .com.example.KeyValue elements = 1;</code>
      */
     public Builder setElements(
         int index, com.example.products.KeyValue.Builder builderForValue) {
@@ -545,7 +545,7 @@ private static final long serialVersionUID = 0L;
       return this;
     }
     /**
-     * <code>repeated .com.derbysoft.servreg.KeyValue elements = 1;</code>
+     * <code>repeated .com.example.KeyValue elements = 1;</code>
      */
     public Builder addElements(com.example.products.KeyValue value) {
       if (elementsBuilder_ == null) {
@@ -561,7 +561,7 @@ private static final long serialVersionUID = 0L;
       return this;
     }
     /**
-     * <code>repeated .com.derbysoft.servreg.KeyValue elements = 1;</code>
+     * <code>repeated .com.example.KeyValue elements = 1;</code>
      */
     public Builder addElements(
         int index, com.example.products.KeyValue value) {
@@ -578,7 +578,7 @@ private static final long serialVersionUID = 0L;
       return this;
     }
     /**
-     * <code>repeated .com.derbysoft.servreg.KeyValue elements = 1;</code>
+     * <code>repeated .com.example.KeyValue elements = 1;</code>
      */
     public Builder addElements(
         com.example.products.KeyValue.Builder builderForValue) {
@@ -592,7 +592,7 @@ private static final long serialVersionUID = 0L;
       return this;
     }
     /**
-     * <code>repeated .com.derbysoft.servreg.KeyValue elements = 1;</code>
+     * <code>repeated .com.example.KeyValue elements = 1;</code>
      */
     public Builder addElements(
         int index, com.example.products.KeyValue.Builder builderForValue) {
@@ -606,7 +606,7 @@ private static final long serialVersionUID = 0L;
       return this;
     }
     /**
-     * <code>repeated .com.derbysoft.servreg.KeyValue elements = 1;</code>
+     * <code>repeated .com.example.KeyValue elements = 1;</code>
      */
     public Builder addAllElements(
         java.lang.Iterable<? extends com.example.products.KeyValue> values) {
@@ -621,7 +621,7 @@ private static final long serialVersionUID = 0L;
       return this;
     }
     /**
-     * <code>repeated .com.derbysoft.servreg.KeyValue elements = 1;</code>
+     * <code>repeated .com.example.KeyValue elements = 1;</code>
      */
     public Builder clearElements() {
       if (elementsBuilder_ == null) {
@@ -634,7 +634,7 @@ private static final long serialVersionUID = 0L;
       return this;
     }
     /**
-     * <code>repeated .com.derbysoft.servreg.KeyValue elements = 1;</code>
+     * <code>repeated .com.example.KeyValue elements = 1;</code>
      */
     public Builder removeElements(int index) {
       if (elementsBuilder_ == null) {
@@ -647,14 +647,14 @@ private static final long serialVersionUID = 0L;
       return this;
     }
     /**
-     * <code>repeated .com.derbysoft.servreg.KeyValue elements = 1;</code>
+     * <code>repeated .com.example.KeyValue elements = 1;</code>
      */
     public com.example.products.KeyValue.Builder getElementsBuilder(
         int index) {
       return getElementsFieldBuilder().getBuilder(index);
     }
     /**
-     * <code>repeated .com.derbysoft.servreg.KeyValue elements = 1;</code>
+     * <code>repeated .com.example.KeyValue elements = 1;</code>
      */
     public com.example.products.KeyValueOrBuilder getElementsOrBuilder(
         int index) {
@@ -664,7 +664,7 @@ private static final long serialVersionUID = 0L;
       }
     }
     /**
-     * <code>repeated .com.derbysoft.servreg.KeyValue elements = 1;</code>
+     * <code>repeated .com.example.KeyValue elements = 1;</code>
      */
     public java.util.List<? extends com.example.products.KeyValueOrBuilder> 
          getElementsOrBuilderList() {
@@ -675,14 +675,14 @@ private static final long serialVersionUID = 0L;
       }
     }
     /**
-     * <code>repeated .com.derbysoft.servreg.KeyValue elements = 1;</code>
+     * <code>repeated .com.example.KeyValue elements = 1;</code>
      */
     public com.example.products.KeyValue.Builder addElementsBuilder() {
       return getElementsFieldBuilder().addBuilder(
           com.example.products.KeyValue.getDefaultInstance());
     }
     /**
-     * <code>repeated .com.derbysoft.servreg.KeyValue elements = 1;</code>
+     * <code>repeated .com.example.KeyValue elements = 1;</code>
      */
     public com.example.products.KeyValue.Builder addElementsBuilder(
         int index) {
@@ -690,7 +690,7 @@ private static final long serialVersionUID = 0L;
           index, com.example.products.KeyValue.getDefaultInstance());
     }
     /**
-     * <code>repeated .com.derbysoft.servreg.KeyValue elements = 1;</code>
+     * <code>repeated .com.example.KeyValue elements = 1;</code>
      */
     public java.util.List<com.example.products.KeyValue.Builder> 
          getElementsBuilderList() {
@@ -723,10 +723,10 @@ private static final long serialVersionUID = 0L;
     }
 
 
-    // @@protoc_insertion_point(builder_scope:com.derbysoft.servreg.TPAExtensionsDTO)
+    // @@protoc_insertion_point(builder_scope:com.example.TPAExtensionsDTO)
   }
 
-  // @@protoc_insertion_point(class_scope:com.derbysoft.servreg.TPAExtensionsDTO)
+  // @@protoc_insertion_point(class_scope:com.example.TPAExtensionsDTO)
   private static final com.example.products.TPAExtensionsDTO DEFAULT_INSTANCE;
   static {
     DEFAULT_INSTANCE = new com.example.products.TPAExtensionsDTO();

@@ -4,7 +4,7 @@
 package com.example.products;
 
 public interface ProductDTOOrBuilder extends
-    // @@protoc_insertion_point(interface_extends:com.derbysoft.servreg.ProductDTO)
+    // @@protoc_insertion_point(interface_extends:com.example.ProductDTO)
     com.google.protobuf.MessageOrBuilder {
 
   /**
@@ -32,17 +32,17 @@ public interface ProductDTOOrBuilder extends
       getRoomTypeCodeBytes();
 
   /**
-   * <code>.com.derbysoft.servreg.TPAExtensionsDTO tpaExtensions = 1000;</code>
+   * <code>.com.example.TPAExtensionsDTO tpaExtensions = 1000;</code>
    * @return Whether the tpaExtensions field is set.
    */
   boolean hasTpaExtensions();
   /**
-   * <code>.com.derbysoft.servreg.TPAExtensionsDTO tpaExtensions = 1000;</code>
+   * <code>.com.example.TPAExtensionsDTO tpaExtensions = 1000;</code>
    * @return The tpaExtensions.
    */
   com.example.products.TPAExtensionsDTO getTpaExtensions();
   /**
-   * <code>.com.derbysoft.servreg.TPAExtensionsDTO tpaExtensions = 1000;</code>
+   * <code>.com.example.TPAExtensionsDTO tpaExtensions = 1000;</code>
    */
   com.example.products.TPAExtensionsDTOOrBuilder getTpaExtensionsOrBuilder();
 }

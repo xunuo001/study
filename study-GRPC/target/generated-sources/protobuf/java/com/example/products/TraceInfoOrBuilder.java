@@ -4,7 +4,7 @@
 package com.example.products;
 
 public interface TraceInfoOrBuilder extends
-    // @@protoc_insertion_point(interface_extends:com.derbysoft.servreg.TraceInfo)
+    // @@protoc_insertion_point(interface_extends:com.example.TraceInfo)
     com.google.protobuf.MessageOrBuilder {
 
   /**
@@ -56,17 +56,17 @@ public interface TraceInfoOrBuilder extends
   int getPeerPort();
 
   /**
-   * <code>.com.derbysoft.servreg.TPAExtensionsDTO tpaExtensions = 1000;</code>
+   * <code>.com.example.TPAExtensionsDTO tpaExtensions = 1000;</code>
    * @return Whether the tpaExtensions field is set.
    */
   boolean hasTpaExtensions();
   /**
-   * <code>.com.derbysoft.servreg.TPAExtensionsDTO tpaExtensions = 1000;</code>
+   * <code>.com.example.TPAExtensionsDTO tpaExtensions = 1000;</code>
    * @return The tpaExtensions.
    */
   com.example.products.TPAExtensionsDTO getTpaExtensions();
   /**
-   * <code>.com.derbysoft.servreg.TPAExtensionsDTO tpaExtensions = 1000;</code>
+   * <code>.com.example.TPAExtensionsDTO tpaExtensions = 1000;</code>
    */
   com.example.products.TPAExtensionsDTOOrBuilder getTpaExtensionsOrBuilder();
 }

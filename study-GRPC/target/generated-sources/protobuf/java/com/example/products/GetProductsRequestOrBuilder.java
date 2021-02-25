@@ -4,36 +4,36 @@
 package com.example.products;
 
 public interface GetProductsRequestOrBuilder extends
-    // @@protoc_insertion_point(interface_extends:com.derbysoft.servreg.GetProductsRequest)
+    // @@protoc_insertion_point(interface_extends:com.example.GetProductsRequest)
     com.google.protobuf.MessageOrBuilder {
 
   /**
-   * <code>.com.derbysoft.servreg.ProductsRQ productsRQ = 1;</code>
+   * <code>.com.example.ProductsRQ productsRQ = 1;</code>
    * @return Whether the productsRQ field is set.
    */
   boolean hasProductsRQ();
   /**
-   * <code>.com.derbysoft.servreg.ProductsRQ productsRQ = 1;</code>
+   * <code>.com.example.ProductsRQ productsRQ = 1;</code>
    * @return The productsRQ.
    */
   com.example.products.ProductsRQ getProductsRQ();
   /**
-   * <code>.com.derbysoft.servreg.ProductsRQ productsRQ = 1;</code>
+   * <code>.com.example.ProductsRQ productsRQ = 1;</code>
    */
   com.example.products.ProductsRQOrBuilder getProductsRQOrBuilder();
 
   /**
-   * <code>.com.derbysoft.servreg.RequestMessage header = 2;</code>
+   * <code>.com.example.RequestMessage header = 2;</code>
    * @return Whether the header field is set.
    */
   boolean hasHeader();
   /**
-   * <code>.com.derbysoft.servreg.RequestMessage header = 2;</code>
+   * <code>.com.example.RequestMessage header = 2;</code>
    * @return The header.
    */
   com.example.products.RequestMessage getHeader();
   /**
-   * <code>.com.derbysoft.servreg.RequestMessage header = 2;</code>
+   * <code>.com.example.RequestMessage header = 2;</code>
    */
   com.example.products.RequestMessageOrBuilder getHeaderOrBuilder();
 }

@@ -15,70 +15,70 @@ public final class ConnectivityProductsPB {
         (com.google.protobuf.ExtensionRegistryLite) registry);
   }
   static final com.google.protobuf.Descriptors.Descriptor
-    internal_static_com_derbysoft_servreg_GetProductsRequest_descriptor;
+    internal_static_com_example_GetProductsRequest_descriptor;
   static final 
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
-      internal_static_com_derbysoft_servreg_GetProductsRequest_fieldAccessorTable;
+      internal_static_com_example_GetProductsRequest_fieldAccessorTable;
   static final com.google.protobuf.Descriptors.Descriptor
-    internal_static_com_derbysoft_servreg_GetProductsResponse_descriptor;
+    internal_static_com_example_GetProductsResponse_descriptor;
   static final 
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
-      internal_static_com_derbysoft_servreg_GetProductsResponse_fieldAccessorTable;
+      internal_static_com_example_GetProductsResponse_fieldAccessorTable;
   static final com.google.protobuf.Descriptors.Descriptor
-    internal_static_com_derbysoft_servreg_ProductsRQ_descriptor;
+    internal_static_com_example_ProductsRQ_descriptor;
   static final 
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
-      internal_static_com_derbysoft_servreg_ProductsRQ_fieldAccessorTable;
+      internal_static_com_example_ProductsRQ_fieldAccessorTable;
   static final com.google.protobuf.Descriptors.Descriptor
-    internal_static_com_derbysoft_servreg_ProductsRS_descriptor;
+    internal_static_com_example_ProductsRS_descriptor;
   static final 
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
-      internal_static_com_derbysoft_servreg_ProductsRS_fieldAccessorTable;
+      internal_static_com_example_ProductsRS_fieldAccessorTable;
   static final com.google.protobuf.Descriptors.Descriptor
-    internal_static_com_derbysoft_servreg_ProductDTO_descriptor;
+    internal_static_com_example_ProductDTO_descriptor;
   static final 
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
-      internal_static_com_derbysoft_servreg_ProductDTO_fieldAccessorTable;
+      internal_static_com_example_ProductDTO_fieldAccessorTable;
   static final com.google.protobuf.Descriptors.Descriptor
-    internal_static_com_derbysoft_servreg_KeyValue_descriptor;
+    internal_static_com_example_KeyValue_descriptor;
   static final 
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
-      internal_static_com_derbysoft_servreg_KeyValue_fieldAccessorTable;
+      internal_static_com_example_KeyValue_fieldAccessorTable;
   static final com.google.protobuf.Descriptors.Descriptor
-    internal_static_com_derbysoft_servreg_TPAExtensionsDTO_descriptor;
+    internal_static_com_example_TPAExtensionsDTO_descriptor;
   static final 
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
-      internal_static_com_derbysoft_servreg_TPAExtensionsDTO_fieldAccessorTable;
+      internal_static_com_example_TPAExtensionsDTO_fieldAccessorTable;
   static final com.google.protobuf.Descriptors.Descriptor
-    internal_static_com_derbysoft_servreg_TraceInfo_descriptor;
+    internal_static_com_example_TraceInfo_descriptor;
   static final 
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
-      internal_static_com_derbysoft_servreg_TraceInfo_fieldAccessorTable;
+      internal_static_com_example_TraceInfo_fieldAccessorTable;
   static final com.google.protobuf.Descriptors.Descriptor
-    internal_static_com_derbysoft_servreg_ServiceInfo_descriptor;
+    internal_static_com_example_ServiceInfo_descriptor;
   static final 
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
-      internal_static_com_derbysoft_servreg_ServiceInfo_fieldAccessorTable;
+      internal_static_com_example_ServiceInfo_fieldAccessorTable;
   static final com.google.protobuf.Descriptors.Descriptor
-    internal_static_com_derbysoft_servreg_Header_descriptor;
+    internal_static_com_example_Header_descriptor;
   static final 
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
-      internal_static_com_derbysoft_servreg_Header_fieldAccessorTable;
+      internal_static_com_example_Header_fieldAccessorTable;
   static final com.google.protobuf.Descriptors.Descriptor
-    internal_static_com_derbysoft_servreg_RequestMessage_descriptor;
+    internal_static_com_example_RequestMessage_descriptor;
   static final 
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
-      internal_static_com_derbysoft_servreg_RequestMessage_fieldAccessorTable;
+      internal_static_com_example_RequestMessage_fieldAccessorTable;
   static final com.google.protobuf.Descriptors.Descriptor
-    internal_static_com_derbysoft_servreg_ResponseMessage_descriptor;
+    internal_static_com_example_ResponseMessage_descriptor;
   static final 
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
-      internal_static_com_derbysoft_servreg_ResponseMessage_fieldAccessorTable;
+      internal_static_com_example_ResponseMessage_fieldAccessorTable;
   static final com.google.protobuf.Descriptors.Descriptor
-    internal_static_com_derbysoft_servreg_ErrorDTO_descriptor;
+    internal_static_com_example_ErrorDTO_descriptor;
   static final 
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
-      internal_static_com_derbysoft_servreg_ErrorDTO_fieldAccessorTable;
+      internal_static_com_example_ErrorDTO_fieldAccessorTable;
 
   public static com.google.protobuf.Descriptors.FileDescriptor
       getDescriptor() {
@@ -88,144 +88,138 @@ public final class ConnectivityProductsPB {
       descriptor;
   static {
     java.lang.String[] descriptorData = {
-      "\n\026products_service.proto\022\025com.derbysoft." +
-      "servreg\"\202\001\n\022GetProductsRequest\0225\n\nproduc" +
-      "tsRQ\030\001 \001(\0132!.com.derbysoft.servreg.Produ" +
-      "ctsRQ\0225\n\006header\030\002 \001(\0132%.com.derbysoft.se" +
-      "rvreg.RequestMessage\"\206\001\n\023GetProductsResp" +
-      "onse\0225\n\nproductsRS\030\001 \001(\0132!.com.derbysoft" +
-      ".servreg.ProductsRS\0228\n\010response\030\002 \001(\0132&." +
-      "com.derbysoft.servreg.ResponseMessage\"\244\001" +
-      "\n\nProductsRQ\022\r\n\005cCode\030\001 \001(\t\022\r\n\005sCode\030\002 \001" +
-      "(\t\022\021\n\thotelCode\030\003 \001(\t\022\021\n\tratePlans\030\004 \003(\t" +
-      "\022\021\n\troomTypes\030\005 \003(\t\022?\n\rtpaExtensions\030\350\007 " +
-      "\001(\0132\'.com.derbysoft.servreg.TPAExtension" +
-      "sDTO\"\202\001\n\nProductsRS\0223\n\010products\030\001 \003(\0132!." +
-      "com.derbysoft.servreg.ProductDTO\022?\n\rtpaE" +
-      "xtensions\030\350\007 \001(\0132\'.com.derbysoft.servreg" +
-      ".TPAExtensionsDTO\"y\n\nProductDTO\022\024\n\014rateP" +
-      "lanCode\030\001 \001(\t\022\024\n\014roomTypeCode\030\002 \001(\t\022?\n\rt" +
-      "paExtensions\030\350\007 \001(\0132\'.com.derbysoft.serv" +
-      "reg.TPAExtensionsDTO\"&\n\010KeyValue\022\013\n\003key\030" +
-      "\001 \001(\t\022\r\n\005value\030\002 \001(\t\"E\n\020TPAExtensionsDTO" +
-      "\0221\n\010elements\030\001 \003(\0132\037.com.derbysoft.servr" +
-      "eg.KeyValue\"\307\001\n\tTraceInfo\022\017\n\007traceId\030\001 \001" +
-      "(\003\022\016\n\006spanId\030\002 \001(\003\022\024\n\014parentSpanId\030\003 \001(\003" +
-      "\022\017\n\007sampled\030\004 \001(\010\022\r\n\005flags\030\005 \001(\005\022\020\n\010peer" +
-      "Host\030\006 \001(\t\022\020\n\010peerPort\030\007 \001(\005\022?\n\rtpaExten" +
-      "sions\030\350\007 \001(\0132\'.com.derbysoft.servreg.TPA" +
-      "ExtensionsDTO\":\n\013ServiceInfo\022\014\n\004name\030\001 \001" +
-      "(\t\022\014\n\004host\030\002 \001(\t\022\017\n\007version\030\003 \001(\t\"\274\002\n\006He" +
-      "ader\022\013\n\003uri\030\001 \001(\t\022\016\n\006taskId\030\002 \001(\t\022\016\n\006sou" +
-      "rce\030\003 \001(\t\022\023\n\013destination\030\004 \001(\t\0220\n\007header" +
-      "s\030\005 \003(\0132\037.com.derbysoft.servreg.KeyValue" +
-      "\022\017\n\007timeout\030\n \001(\005\0227\n\013invokerInfo\030\013 \001(\0132\"" +
-      ".com.derbysoft.servreg.ServiceInfo\0223\n\ttr" +
-      "aceInfo\030\024 \001(\0132 .com.derbysoft.servreg.Tr" +
-      "aceInfo\022?\n\rtpaExtensions\030\350\007 \001(\0132\'.com.de" +
-      "rbysoft.servreg.TPAExtensionsDTO\"\216\001\n\016Req" +
-      "uestMessage\022-\n\006header\030\001 \001(\0132\035.com.derbys" +
-      "oft.servreg.Header\022\014\n\004body\030\n \001(\014\022?\n\rtpaE" +
-      "xtensions\030\350\007 \001(\0132\'.com.derbysoft.servreg" +
-      ".TPAExtensionsDTO\"\320\002\n\017ResponseMessage\022\016\n" +
-      "\006taskId\030\001 \001(\t\0225\n\014elapsedTimes\030\002 \003(\0132\037.co" +
-      "m.derbysoft.servreg.KeyValue\022.\n\005error\030\003 " +
-      "\001(\0132\037.com.derbysoft.servreg.ErrorDTO\0227\n\013" +
-      "replierInfo\030\004 \001(\0132\".com.derbysoft.servre" +
-      "g.ServiceInfo\0220\n\007headers\030\005 \003(\0132\037.com.der" +
-      "bysoft.servreg.KeyValue\022\014\n\004body\030\n \001(\014\022\014\n" +
-      "\004time\030\017 \001(\003\022?\n\rtpaExtensions\030\350\007 \001(\0132\'.co" +
-      "m.derbysoft.servreg.TPAExtensionsDTO\"z\n\010" +
-      "ErrorDTO\022\014\n\004code\030\001 \001(\t\022\017\n\007message\030\002 \001(\t\022" +
-      "\016\n\006source\030\003 \001(\t\022?\n\rtpaExtensions\030\350\007 \001(\0132" +
-      "\'.com.derbysoft.servreg.TPAExtensionsDTO" +
-      "2~\n\024ConnectivityProducts\022f\n\013GetProducts\022" +
-      ").com.derbysoft.servreg.GetProductsReque" +
-      "st\032*.com.derbysoft.servreg.GetProductsRe" +
-      "sponse\"\000B0\n\024com.example.productsB\026Connec" +
-      "tivityProductsPBP\001b\006proto3"
+      "\n\026products_service.proto\022\013com.example\"n\n" +
+      "\022GetProductsRequest\022+\n\nproductsRQ\030\001 \001(\0132" +
+      "\027.com.example.ProductsRQ\022+\n\006header\030\002 \001(\013" +
+      "2\033.com.example.RequestMessage\"r\n\023GetProd" +
+      "uctsResponse\022+\n\nproductsRS\030\001 \001(\0132\027.com.e" +
+      "xample.ProductsRS\022.\n\010response\030\002 \001(\0132\034.co" +
+      "m.example.ResponseMessage\"\232\001\n\nProductsRQ" +
+      "\022\r\n\005cCode\030\001 \001(\t\022\r\n\005sCode\030\002 \001(\t\022\021\n\thotelC" +
+      "ode\030\003 \001(\t\022\021\n\tratePlans\030\004 \003(\t\022\021\n\troomType" +
+      "s\030\005 \003(\t\0225\n\rtpaExtensions\030\350\007 \001(\0132\035.com.ex" +
+      "ample.TPAExtensionsDTO\"n\n\nProductsRS\022)\n\010" +
+      "products\030\001 \003(\0132\027.com.example.ProductDTO\022" +
+      "5\n\rtpaExtensions\030\350\007 \001(\0132\035.com.example.TP" +
+      "AExtensionsDTO\"o\n\nProductDTO\022\024\n\014ratePlan" +
+      "Code\030\001 \001(\t\022\024\n\014roomTypeCode\030\002 \001(\t\0225\n\rtpaE" +
+      "xtensions\030\350\007 \001(\0132\035.com.example.TPAExtens" +
+      "ionsDTO\"&\n\010KeyValue\022\013\n\003key\030\001 \001(\t\022\r\n\005valu" +
+      "e\030\002 \001(\t\";\n\020TPAExtensionsDTO\022\'\n\010elements\030" +
+      "\001 \003(\0132\025.com.example.KeyValue\"\275\001\n\tTraceIn" +
+      "fo\022\017\n\007traceId\030\001 \001(\003\022\016\n\006spanId\030\002 \001(\003\022\024\n\014p" +
+      "arentSpanId\030\003 \001(\003\022\017\n\007sampled\030\004 \001(\010\022\r\n\005fl" +
+      "ags\030\005 \001(\005\022\020\n\010peerHost\030\006 \001(\t\022\020\n\010peerPort\030" +
+      "\007 \001(\005\0225\n\rtpaExtensions\030\350\007 \001(\0132\035.com.exam" +
+      "ple.TPAExtensionsDTO\":\n\013ServiceInfo\022\014\n\004n" +
+      "ame\030\001 \001(\t\022\014\n\004host\030\002 \001(\t\022\017\n\007version\030\003 \001(\t" +
+      "\"\224\002\n\006Header\022\013\n\003uri\030\001 \001(\t\022\016\n\006taskId\030\002 \001(\t" +
+      "\022\016\n\006source\030\003 \001(\t\022\023\n\013destination\030\004 \001(\t\022&\n" +
+      "\007headers\030\005 \003(\0132\025.com.example.KeyValue\022\017\n" +
+      "\007timeout\030\n \001(\005\022-\n\013invokerInfo\030\013 \001(\0132\030.co" +
+      "m.example.ServiceInfo\022)\n\ttraceInfo\030\024 \001(\013" +
+      "2\026.com.example.TraceInfo\0225\n\rtpaExtension" +
+      "s\030\350\007 \001(\0132\035.com.example.TPAExtensionsDTO\"" +
+      "z\n\016RequestMessage\022#\n\006header\030\001 \001(\0132\023.com." +
+      "example.Header\022\014\n\004body\030\n \001(\014\0225\n\rtpaExten" +
+      "sions\030\350\007 \001(\0132\035.com.example.TPAExtensions" +
+      "DTO\"\236\002\n\017ResponseMessage\022\016\n\006taskId\030\001 \001(\t\022" +
+      "+\n\014elapsedTimes\030\002 \003(\0132\025.com.example.KeyV" +
+      "alue\022$\n\005error\030\003 \001(\0132\025.com.example.ErrorD" +
+      "TO\022-\n\013replierInfo\030\004 \001(\0132\030.com.example.Se" +
+      "rviceInfo\022&\n\007headers\030\005 \003(\0132\025.com.example" +
+      ".KeyValue\022\014\n\004body\030\n \001(\014\022\014\n\004time\030\017 \001(\003\0225\n" +
+      "\rtpaExtensions\030\350\007 \001(\0132\035.com.example.TPAE" +
+      "xtensionsDTO\"p\n\010ErrorDTO\022\014\n\004code\030\001 \001(\t\022\017" +
+      "\n\007message\030\002 \001(\t\022\016\n\006source\030\003 \001(\t\0225\n\rtpaEx" +
+      "tensions\030\350\007 \001(\0132\035.com.example.TPAExtensi" +
+      "onsDTO2j\n\024ConnectivityProducts\022R\n\013GetPro" +
+      "ducts\022\037.com.example.GetProductsRequest\032 " +
+      ".com.example.GetProductsResponse\"\000B0\n\024co" +
+      "m.example.productsB\026ConnectivityProducts" +
+      "PBP\001b\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,
         new com.google.protobuf.Descriptors.FileDescriptor[] {
         });
-    internal_static_com_derbysoft_servreg_GetProductsRequest_descriptor =
+    internal_static_com_example_GetProductsRequest_descriptor =
       getDescriptor().getMessageTypes().get(0);
-    internal_static_com_derbysoft_servreg_GetProductsRequest_fieldAccessorTable = new
+    internal_static_com_example_GetProductsRequest_fieldAccessorTable = new
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
-        internal_static_com_derbysoft_servreg_GetProductsRequest_descriptor,
+        internal_static_com_example_GetProductsRequest_descriptor,
         new java.lang.String[] { "ProductsRQ", "Header", });
-    internal_static_com_derbysoft_servreg_GetProductsResponse_descriptor =
+    internal_static_com_example_GetProductsResponse_descriptor =
       getDescriptor().getMessageTypes().get(1);
-    internal_static_com_derbysoft_servreg_GetProductsResponse_fieldAccessorTable = new
+    internal_static_com_example_GetProductsResponse_fieldAccessorTable = new
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
-        internal_static_com_derbysoft_servreg_GetProductsResponse_descriptor,
+        internal_static_com_example_GetProductsResponse_descriptor,
         new java.lang.String[] { "ProductsRS", "Response", });
-    internal_static_com_derbysoft_servreg_ProductsRQ_descriptor =
+    internal_static_com_example_ProductsRQ_descriptor =
       getDescriptor().getMessageTypes().get(2);
-    internal_static_com_derbysoft_servreg_ProductsRQ_fieldAccessorTable = new
+    internal_static_com_example_ProductsRQ_fieldAccessorTable = new
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
-        internal_static_com_derbysoft_servreg_ProductsRQ_descriptor,
+        internal_static_com_example_ProductsRQ_descriptor,
         new java.lang.String[] { "CCode", "SCode", "HotelCode", "RatePlans", "RoomTypes", "TpaExtensions", });
-    internal_static_com_derbysoft_servreg_ProductsRS_descriptor =
+    internal_static_com_example_ProductsRS_descriptor =
       getDescriptor().getMessageTypes().get(3);
-    internal_static_com_derbysoft_servreg_ProductsRS_fieldAccessorTable = new
+    internal_static_com_example_ProductsRS_fieldAccessorTable = new
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
-        internal_static_com_derbysoft_servreg_ProductsRS_descriptor,
+        internal_static_com_example_ProductsRS_descriptor,
         new java.lang.String[] { "Products", "TpaExtensions", });
-    internal_static_com_derbysoft_servreg_ProductDTO_descriptor =
+    internal_static_com_example_ProductDTO_descriptor =
       getDescriptor().getMessageTypes().get(4);
-    internal_static_com_derbysoft_servreg_ProductDTO_fieldAccessorTable = new
+    internal_static_com_example_ProductDTO_fieldAccessorTable = new
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
-        internal_static_com_derbysoft_servreg_ProductDTO_descriptor,
+        internal_static_com_example_ProductDTO_descriptor,
         new java.lang.String[] { "RatePlanCode", "RoomTypeCode", "TpaExtensions", });
-    internal_static_com_derbysoft_servreg_KeyValue_descriptor =
+    internal_static_com_example_KeyValue_descriptor =
       getDescriptor().getMessageTypes().get(5);
-    internal_static_com_derbysoft_servreg_KeyValue_fieldAccessorTable = new
+    internal_static_com_example_KeyValue_fieldAccessorTable = new
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
-        internal_static_com_derbysoft_servreg_KeyValue_descriptor,
+        internal_static_com_example_KeyValue_descriptor,
         new java.lang.String[] { "Key", "Value", });
-    internal_static_com_derbysoft_servreg_TPAExtensionsDTO_descriptor =
+    internal_static_com_example_TPAExtensionsDTO_descriptor =
       getDescriptor().getMessageTypes().get(6);
-    internal_static_com_derbysoft_servreg_TPAExtensionsDTO_fieldAccessorTable = new
+    internal_static_com_example_TPAExtensionsDTO_fieldAccessorTable = new
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
-        internal_static_com_derbysoft_servreg_TPAExtensionsDTO_descriptor,
+        internal_static_com_example_TPAExtensionsDTO_descriptor,
         new java.lang.String[] { "Elements", });
-    internal_static_com_derbysoft_servreg_TraceInfo_descriptor =
+    internal_static_com_example_TraceInfo_descriptor =
       getDescriptor().getMessageTypes().get(7);
-    internal_static_com_derbysoft_servreg_TraceInfo_fieldAccessorTable = new
+    internal_static_com_example_TraceInfo_fieldAccessorTable = new
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
-        internal_static_com_derbysoft_servreg_TraceInfo_descriptor,
+        internal_static_com_example_TraceInfo_descriptor,
         new java.lang.String[] { "TraceId", "SpanId", "ParentSpanId", "Sampled", "Flags", "PeerHost", "PeerPort", "TpaExtensions", });
-    internal_static_com_derbysoft_servreg_ServiceInfo_descriptor =
+    internal_static_com_example_ServiceInfo_descriptor =
       getDescriptor().getMessageTypes().get(8);
-    internal_static_com_derbysoft_servreg_ServiceInfo_fieldAccessorTable = new
+    internal_static_com_example_ServiceInfo_fieldAccessorTable = new
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
-        internal_static_com_derbysoft_servreg_ServiceInfo_descriptor,
+        internal_static_com_example_ServiceInfo_descriptor,
         new java.lang.String[] { "Name", "Host", "Version", });
-    internal_static_com_derbysoft_servreg_Header_descriptor =
+    internal_static_com_example_Header_descriptor =
       getDescriptor().getMessageTypes().get(9);
-    internal_static_com_derbysoft_servreg_Header_fieldAccessorTable = new
+    internal_static_com_example_Header_fieldAccessorTable = new
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
-        internal_static_com_derbysoft_servreg_Header_descriptor,
+        internal_static_com_example_Header_descriptor,
         new java.lang.String[] { "Uri", "TaskId", "Source", "Destination", "Headers", "Timeout", "InvokerInfo", "TraceInfo", "TpaExtensions", });
-    internal_static_com_derbysoft_servreg_RequestMessage_descriptor =
+    internal_static_com_example_RequestMessage_descriptor =
       getDescriptor().getMessageTypes().get(10);
-    internal_static_com_derbysoft_servreg_RequestMessage_fieldAccessorTable = new
+    internal_static_com_example_RequestMessage_fieldAccessorTable = new
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
-        internal_static_com_derbysoft_servreg_RequestMessage_descriptor,
+        internal_static_com_example_RequestMessage_descriptor,
         new java.lang.String[] { "Header", "Body", "TpaExtensions", });
-    internal_static_com_derbysoft_servreg_ResponseMessage_descriptor =
+    internal_static_com_example_ResponseMessage_descriptor =
       getDescriptor().getMessageTypes().get(11);
-    internal_static_com_derbysoft_servreg_ResponseMessage_fieldAccessorTable = new
+    internal_static_com_example_ResponseMessage_fieldAccessorTable = new
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
-        internal_static_com_derbysoft_servreg_ResponseMessage_descriptor,
+        internal_static_com_example_ResponseMessage_descriptor,
         new java.lang.String[] { "TaskId", "ElapsedTimes", "Error", "ReplierInfo", "Headers", "Body", "Time", "TpaExtensions", });
-    internal_static_com_derbysoft_servreg_ErrorDTO_descriptor =
+    internal_static_com_example_ErrorDTO_descriptor =
       getDescriptor().getMessageTypes().get(12);
-    internal_static_com_derbysoft_servreg_ErrorDTO_fieldAccessorTable = new
+    internal_static_com_example_ErrorDTO_fieldAccessorTable = new
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
-        internal_static_com_derbysoft_servreg_ErrorDTO_descriptor,
+        internal_static_com_example_ErrorDTO_descriptor,
         new java.lang.String[] { "Code", "Message", "Source", "TpaExtensions", });
   }
 

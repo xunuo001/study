@@ -4,7 +4,7 @@
 package com.example.products;
 
 public interface ServiceInfoOrBuilder extends
-    // @@protoc_insertion_point(interface_extends:com.derbysoft.servreg.ServiceInfo)
+    // @@protoc_insertion_point(interface_extends:com.example.ServiceInfo)
     com.google.protobuf.MessageOrBuilder {
 
   /**

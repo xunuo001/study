@@ -4,21 +4,21 @@
 package com.example.products;
 
 public interface RequestMessageOrBuilder extends
-    // @@protoc_insertion_point(interface_extends:com.derbysoft.servreg.RequestMessage)
+    // @@protoc_insertion_point(interface_extends:com.example.RequestMessage)
     com.google.protobuf.MessageOrBuilder {
 
   /**
-   * <code>.com.derbysoft.servreg.Header header = 1;</code>
+   * <code>.com.example.Header header = 1;</code>
    * @return Whether the header field is set.
    */
   boolean hasHeader();
   /**
-   * <code>.com.derbysoft.servreg.Header header = 1;</code>
+   * <code>.com.example.Header header = 1;</code>
    * @return The header.
    */
   com.example.products.Header getHeader();
   /**
-   * <code>.com.derbysoft.servreg.Header header = 1;</code>
+   * <code>.com.example.Header header = 1;</code>
    */
   com.example.products.HeaderOrBuilder getHeaderOrBuilder();
 
@@ -29,17 +29,17 @@ public interface RequestMessageOrBuilder extends
   com.google.protobuf.ByteString getBody();
 
   /**
-   * <code>.com.derbysoft.servreg.TPAExtensionsDTO tpaExtensions = 1000;</code>
+   * <code>.com.example.TPAExtensionsDTO tpaExtensions = 1000;</code>
    * @return Whether the tpaExtensions field is set.
    */
   boolean hasTpaExtensions();
   /**
-   * <code>.com.derbysoft.servreg.TPAExtensionsDTO tpaExtensions = 1000;</code>
+   * <code>.com.example.TPAExtensionsDTO tpaExtensions = 1000;</code>
    * @return The tpaExtensions.
    */
   com.example.products.TPAExtensionsDTO getTpaExtensions();
   /**
-   * <code>.com.derbysoft.servreg.TPAExtensionsDTO tpaExtensions = 1000;</code>
+   * <code>.com.example.TPAExtensionsDTO tpaExtensions = 1000;</code>
    */
   com.example.products.TPAExtensionsDTOOrBuilder getTpaExtensionsOrBuilder();
 }

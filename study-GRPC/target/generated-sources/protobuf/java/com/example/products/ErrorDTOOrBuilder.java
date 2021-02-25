@@ -4,7 +4,7 @@
 package com.example.products;
 
 public interface ErrorDTOOrBuilder extends
-    // @@protoc_insertion_point(interface_extends:com.derbysoft.servreg.ErrorDTO)
+    // @@protoc_insertion_point(interface_extends:com.example.ErrorDTO)
     com.google.protobuf.MessageOrBuilder {
 
   /**
@@ -44,17 +44,17 @@ public interface ErrorDTOOrBuilder extends
       getSourceBytes();
 
   /**
-   * <code>.com.derbysoft.servreg.TPAExtensionsDTO tpaExtensions = 1000;</code>
+   * <code>.com.example.TPAExtensionsDTO tpaExtensions = 1000;</code>
    * @return Whether the tpaExtensions field is set.
    */
   boolean hasTpaExtensions();
   /**
-   * <code>.com.derbysoft.servreg.TPAExtensionsDTO tpaExtensions = 1000;</code>
+   * <code>.com.example.TPAExtensionsDTO tpaExtensions = 1000;</code>
    * @return The tpaExtensions.
    */
   com.example.products.TPAExtensionsDTO getTpaExtensions();
   /**
-   * <code>.com.derbysoft.servreg.TPAExtensionsDTO tpaExtensions = 1000;</code>
+   * <code>.com.example.TPAExtensionsDTO tpaExtensions = 1000;</code>
    */
   com.example.products.TPAExtensionsDTOOrBuilder getTpaExtensionsOrBuilder();
 }

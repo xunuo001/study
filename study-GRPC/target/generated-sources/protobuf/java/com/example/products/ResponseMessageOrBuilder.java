@@ -4,7 +4,7 @@
 package com.example.products;
 
 public interface ResponseMessageOrBuilder extends
-    // @@protoc_insertion_point(interface_extends:com.derbysoft.servreg.ResponseMessage)
+    // @@protoc_insertion_point(interface_extends:com.example.ResponseMessage)
     com.google.protobuf.MessageOrBuilder {
 
   /**
@@ -20,79 +20,79 @@ public interface ResponseMessageOrBuilder extends
       getTaskIdBytes();
 
   /**
-   * <code>repeated .com.derbysoft.servreg.KeyValue elapsedTimes = 2;</code>
+   * <code>repeated .com.example.KeyValue elapsedTimes = 2;</code>
    */
   java.util.List<com.example.products.KeyValue> 
       getElapsedTimesList();
   /**
-   * <code>repeated .com.derbysoft.servreg.KeyValue elapsedTimes = 2;</code>
+   * <code>repeated .com.example.KeyValue elapsedTimes = 2;</code>
    */
   com.example.products.KeyValue getElapsedTimes(int index);
   /**
-   * <code>repeated .com.derbysoft.servreg.KeyValue elapsedTimes = 2;</code>
+   * <code>repeated .com.example.KeyValue elapsedTimes = 2;</code>
    */
   int getElapsedTimesCount();
   /**
-   * <code>repeated .com.derbysoft.servreg.KeyValue elapsedTimes = 2;</code>
+   * <code>repeated .com.example.KeyValue elapsedTimes = 2;</code>
    */
   java.util.List<? extends com.example.products.KeyValueOrBuilder> 
       getElapsedTimesOrBuilderList();
   /**
-   * <code>repeated .com.derbysoft.servreg.KeyValue elapsedTimes = 2;</code>
+   * <code>repeated .com.example.KeyValue elapsedTimes = 2;</code>
    */
   com.example.products.KeyValueOrBuilder getElapsedTimesOrBuilder(
       int index);
 
   /**
-   * <code>.com.derbysoft.servreg.ErrorDTO error = 3;</code>
+   * <code>.com.example.ErrorDTO error = 3;</code>
    * @return Whether the error field is set.
    */
   boolean hasError();
   /**
-   * <code>.com.derbysoft.servreg.ErrorDTO error = 3;</code>
+   * <code>.com.example.ErrorDTO error = 3;</code>
    * @return The error.
    */
   com.example.products.ErrorDTO getError();
   /**
-   * <code>.com.derbysoft.servreg.ErrorDTO error = 3;</code>
+   * <code>.com.example.ErrorDTO error = 3;</code>
    */
   com.example.products.ErrorDTOOrBuilder getErrorOrBuilder();
 
   /**
-   * <code>.com.derbysoft.servreg.ServiceInfo replierInfo = 4;</code>
+   * <code>.com.example.ServiceInfo replierInfo = 4;</code>
    * @return Whether the replierInfo field is set.
    */
   boolean hasReplierInfo();
   /**
-   * <code>.com.derbysoft.servreg.ServiceInfo replierInfo = 4;</code>
+   * <code>.com.example.ServiceInfo replierInfo = 4;</code>
    * @return The replierInfo.
    */
   com.example.products.ServiceInfo getReplierInfo();
   /**
-   * <code>.com.derbysoft.servreg.ServiceInfo replierInfo = 4;</code>
+   * <code>.com.example.ServiceInfo replierInfo = 4;</code>
    */
   com.example.products.ServiceInfoOrBuilder getReplierInfoOrBuilder();
 
   /**
-   * <code>repeated .com.derbysoft.servreg.KeyValue headers = 5;</code>
+   * <code>repeated .com.example.KeyValue headers = 5;</code>
    */
   java.util.List<com.example.products.KeyValue> 
       getHeadersList();
   /**
-   * <code>repeated .com.derbysoft.servreg.KeyValue headers = 5;</code>
+   * <code>repeated .com.example.KeyValue headers = 5;</code>
    */
   com.example.products.KeyValue getHeaders(int index);
   /**
-   * <code>repeated .com.derbysoft.servreg.KeyValue headers = 5;</code>
+   * <code>repeated .com.example.KeyValue headers = 5;</code>
    */
   int getHeadersCount();
   /**
-   * <code>repeated .com.derbysoft.servreg.KeyValue headers = 5;</code>
+   * <code>repeated .com.example.KeyValue headers = 5;</code>
    */
   java.util.List<? extends com.example.products.KeyValueOrBuilder> 
       getHeadersOrBuilderList();
   /**
-   * <code>repeated .com.derbysoft.servreg.KeyValue headers = 5;</code>
+   * <code>repeated .com.example.KeyValue headers = 5;</code>
    */
   com.example.products.KeyValueOrBuilder getHeadersOrBuilder(
       int index);
@@ -110,17 +110,17 @@ public interface ResponseMessageOrBuilder extends
   long getTime();
 
   /**
-   * <code>.com.derbysoft.servreg.TPAExtensionsDTO tpaExtensions = 1000;</code>
+   * <code>.com.example.TPAExtensionsDTO tpaExtensions = 1000;</code>
    * @return Whether the tpaExtensions field is set.
    */
   boolean hasTpaExtensions();
   /**
-   * <code>.com.derbysoft.servreg.TPAExtensionsDTO tpaExtensions = 1000;</code>
+   * <code>.com.example.TPAExtensionsDTO tpaExtensions = 1000;</code>
    * @return The tpaExtensions.
    */
   com.example.products.TPAExtensionsDTO getTpaExtensions();
   /**
-   * <code>.com.derbysoft.servreg.TPAExtensionsDTO tpaExtensions = 1000;</code>
+   * <code>.com.example.TPAExtensionsDTO tpaExtensions = 1000;</code>
    */
   com.example.products.TPAExtensionsDTOOrBuilder getTpaExtensionsOrBuilder();
 }
